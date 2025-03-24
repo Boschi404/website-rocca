@@ -33,7 +33,7 @@ const testimonials = [
 ];
 
 const TestimonialsSection = () => {
-  const sectionRef = useRef<HTMLElement>(null);
+  const sectionRef = useRef<HTMLDivElement>(null);
   const [currentIndex, setCurrentIndex] = useState(0);
 
   useEffect(() => {

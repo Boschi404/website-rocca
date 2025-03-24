@@ -29,7 +29,7 @@ const teamMembers = [
 ];
 
 const TeamSection = () => {
-  const sectionRef = useRef<HTMLElement>(null);
+  const sectionRef = useRef<HTMLDivElement>(null);
   const cardsRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {

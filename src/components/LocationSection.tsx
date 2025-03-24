@@ -3,7 +3,7 @@ import { useEffect, useRef } from 'react';
 import { MapPin, Phone, Clock } from 'lucide-react';
 
 const LocationSection = () => {
-  const sectionRef = useRef<HTMLElement>(null);
+  const sectionRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
     const observer = new IntersectionObserver(

@@ -1,42 +1,42 @@
 
 import { useEffect, useRef } from 'react';
-import { Tooth } from 'lucide-react';
+import { Stethoscope } from 'lucide-react';
 
 const services = [
   {
     title: "Odontoiatria Generale",
     description: "Cure dentali preventive e terapeutiche per mantenere la salute orale e prevenire problemi futuri.",
-    icon: Tooth,
+    icon: Stethoscope,
   },
   {
     title: "Implantologia",
     description: "Sostituzione di denti mancanti con impianti dentali di alta qualità per un sorriso naturale e funzionale.",
-    icon: Tooth,
+    icon: Stethoscope,
   },
   {
     title: "Ortodonzia",
     description: "Trattamenti per correggere il posizionamento dei denti e migliorare l'occlusione dentale.",
-    icon: Tooth,
+    icon: Stethoscope,
   },
   {
     title: "Chirurgia Orale",
     description: "Interventi chirurgici per risolvere problemi complessi della cavità orale e delle strutture circostanti.",
-    icon: Tooth,
+    icon: Stethoscope,
   },
   {
     title: "Estetica Dentale",
     description: "Trattamenti per migliorare l'aspetto del sorriso, inclusi sbiancamento e faccette dentali.",
-    icon: Tooth,
+    icon: Stethoscope,
   },
   {
     title: "Igiene Dentale",
     description: "Pulizia professionale e consigli personalizzati per mantenere una corretta igiene orale quotidiana.",
-    icon: Tooth,
+    icon: Stethoscope,
   },
 ];
 
 const ServicesSection = () => {
-  const sectionRef = useRef<HTMLElement>(null);
+  const sectionRef = useRef<HTMLDivElement>(null);
   const cardsRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
