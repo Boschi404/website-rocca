@@ -37,6 +37,8 @@ export default {
 					white: '#FFFFFF',
 					offwhite: '#F8FBFF',
 					gray: '#F0F4F8',
+					stone: '#d7d5ca',  // New wall color
+					olive: '#949488',  // New wall color
 				},
 				primary: {
 					DEFAULT: 'hsl(var(--primary))',

@@ -85,10 +85,10 @@ const ServicesSection = () => {
   }, []);
 
   return (
-    <section id="services" className="py-20 bg-white">
+    <section id="services" className="py-20 bg-dental-stone/20">
       <div className="container mx-auto px-4 md:px-6">
         <div ref={sectionRef} className="text-center mb-16 stagger-animation">
-          <span className="inline-block bg-dental-teal/10 text-dental-teal px-4 py-2 rounded-full text-sm font-medium mb-4">
+          <span className="inline-block bg-dental-olive/10 text-dental-olive px-4 py-2 rounded-full text-sm font-medium mb-4">
             I Nostri Servizi
           </span>
           <h2 className="section-title">
@@ -106,18 +106,18 @@ const ServicesSection = () => {
           {services.map((service, index) => (
             <div
               key={index}
-              className="bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition-all duration-300 border border-gray-100 card-hover"
+              className="bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition-all duration-300 border border-dental-stone/30 card-hover"
             >
-              <div className="mb-4 w-14 h-14 rounded-full bg-dental-teal/10 flex items-center justify-center">
-                <service.icon size={28} className="text-dental-teal" />
+              <div className="mb-4 w-14 h-14 rounded-full bg-dental-olive/10 flex items-center justify-center">
+                <service.icon size={28} className="text-dental-olive" />
               </div>
-              <h3 className="text-xl font-semibold text-dental-navy mb-3">
+              <h3 className="text-xl font-semibold text-dental-olive mb-3">
                 {service.title}
               </h3>
               <p className="text-gray-600">
                 {service.description}
               </p>
-              <button className="mt-4 text-dental-teal font-medium flex items-center space-x-1 group">
+              <button className="mt-4 text-dental-olive font-medium flex items-center space-x-1 group">
                 <span>Scopri di più</span>
                 <svg
                   className="w-5 h-5 transform transition-transform group-hover:translate-x-1"

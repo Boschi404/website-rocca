@@ -128,7 +128,15 @@
   }
   
   .service-icon {
-    @apply text-dental-teal bg-dental-offwhite p-4 rounded-full mb-4 inline-block;
+    @apply text-dental-teal bg-dental-stone p-4 rounded-full mb-4 inline-block;
+  }
+
+  .stone-bg {
+    @apply bg-dental-stone;
+  }
+
+  .olive-bg {
+    @apply bg-dental-olive text-white;
   }
 }
 
