@@ -1,6 +1,6 @@
 
 import { useEffect, useRef } from 'react';
-import { Stethoscope, AlignCenter, Glasses, Tooth, Smile, Scissors, Baby, Toothbrush } from 'lucide-react';
+import { Stethoscope, AlignCenter, Glasses, Heart, Smile, Scissors, Baby, Activity } from 'lucide-react';
 
 const services = [
   {
@@ -16,7 +16,7 @@ const services = [
   {
     title: "Implantologia e Protesi",
     description: "Sostituzione dei denti naturali con impianti e protesi funzionali ed estetiche.",
-    icon: Tooth,
+    icon: Heart,
   },
   {
     title: "Parodontologia",
@@ -31,7 +31,7 @@ const services = [
   {
     title: "Sbiancamento Dentale",
     description: "Tecniche professionali per schiarire i denti in modo sicuro ed efficace.",
-    icon: Toothbrush,
+    icon: Activity,
   },
   {
     title: "Pedodonzia",
