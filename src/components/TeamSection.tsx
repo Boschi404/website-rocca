@@ -1,13 +1,18 @@
 
 import { useEffect, useRef } from 'react';
+import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
+import { Card, CardContent } from "@/components/ui/card";
 
+// Owner profile (special layout)
+const ownerProfile = {
+  name: "Dr. Alessio Mario Rocca",
+  role: "Odontoiatra - Titolare",
+  image: "public/lovable-uploads/c9b4e27c-4368-4b3f-9441-cd242552287e.png",
+  biography: "Si è laureato in odontoiatria e protesi dentaria nel 1998. Dal 1999 frequenta la Clinica Odontoiatrica dell'Ospedale S. Paolo di Milano, alternando attività di Tutor degli studenti del corso di laurea in Odontoiatria ad attività libero professionale e di medico frequentatore nei reparti di Protesi totale ed Implantoprotesi. Esercita attività professionale presso il proprio Studio. Presso lo Studio Dentistico Crosetto collabora da diversi anni per le specialitá di endodonzia, protesi fissa e mobile, ed implantoprotesi. Socio ordinario AIOP ed ANDI.\n\nIl suo approccio combina competenza tecnica, tecnologie all'avanguardia e una profonda comprensione delle esigenze dei pazienti, garantendo sempre i migliori risultati possibili."
+};
+
+// Regular team members
 const teamMembers = [
-  {
-    name: "Dr. Alessio Mario Rocca",
-    role: "Odontoiatra",
-    image: "public/lovable-uploads/c9b4e27c-4368-4b3f-9441-cd242552287e.png",
-    description: "Fondatore dello studio con oltre 15 anni di esperienza in odontoiatria generale e chirurgia orale."
-  },
   {
     name: "Dott. Filippo Varegio",
     role: "Odontoiatra",
@@ -31,6 +36,7 @@ const teamMembers = [
 const TeamSection = () => {
   const sectionRef = useRef<HTMLDivElement>(null);
   const cardsRef = useRef<HTMLDivElement>(null);
+  const ownerRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
     const observer = new IntersectionObserver(
@@ -41,6 +47,9 @@ const TeamSection = () => {
               entry.target.classList.add('animate-in');
             }
             if (entry.target === cardsRef.current) {
+              entry.target.classList.add('animate-in');
+            }
+            if (entry.target === ownerRef.current) {
               entry.target.classList.add('animate-in');
             }
           }
@@ -57,6 +66,10 @@ const TeamSection = () => {
       observer.observe(cardsRef.current);
     }
 
+    if (ownerRef.current) {
+      observer.observe(ownerRef.current);
+    }
+
     return () => {
       if (sectionRef.current) {
         observer.unobserve(sectionRef.current);
@@ -64,17 +77,20 @@ const TeamSection = () => {
       if (cardsRef.current) {
         observer.unobserve(cardsRef.current);
       }
+      if (ownerRef.current) {
+        observer.unobserve(ownerRef.current);
+      }
     };
   }, []);
 
   return (
-    <section id="team" className="py-20 bg-dental-offwhite">
+    <section id="team" className="py-20 bg-dental-stone/30">
       <div className="container mx-auto px-4 md:px-6">
         <div ref={sectionRef} className="text-center mb-16 stagger-animation">
-          <span className="inline-block bg-dental-teal/10 text-dental-teal px-4 py-2 rounded-full text-sm font-medium mb-4">
+          <span className="inline-block bg-dental-olive/10 text-dental-olive px-4 py-2 rounded-full text-sm font-medium mb-4">
             Il Nostro Team
           </span>
-          <h2 className="section-title">
+          <h2 className="section-title text-dental-olive">
             Professionisti Esperti al Tuo Servizio
           </h2>
           <p className="section-subtitle">
@@ -82,9 +98,48 @@ const TeamSection = () => {
           </p>
         </div>
 
+        {/* Owner profile with featured layout */}
+        <div 
+          ref={ownerRef}
+          className="mb-16 stagger-animation"
+        >
+          <div className="bg-white rounded-xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300">
+            <div className="flex flex-col lg:flex-row">
+              <div className="lg:w-1/3">
+                <div className="h-full flex flex-col items-center justify-center p-6 lg:p-10 bg-dental-olive/5">
+                  <div className="mb-6 w-48 h-48 overflow-hidden rounded-full border-4 border-dental-stone">
+                    <img
+                      src={ownerProfile.image}
+                      alt={ownerProfile.name}
+                      className="w-full h-full object-cover object-center"
+                    />
+                  </div>
+                  <h3 className="text-2xl font-bold text-dental-olive mb-2 text-center">
+                    {ownerProfile.name}
+                  </h3>
+                  <p className="text-dental-olive/80 font-medium text-lg mb-3 text-center">
+                    {ownerProfile.role}
+                  </p>
+                </div>
+              </div>
+              <div className="lg:w-2/3 p-6 lg:p-10">
+                <h4 className="text-xl font-semibold text-dental-olive mb-4">Biografia</h4>
+                <div className="text-gray-600 space-y-4">
+                  {ownerProfile.biography.split('\n\n').map((paragraph, index) => (
+                    <p key={index} className="text-base leading-relaxed">
+                      {paragraph}
+                    </p>
+                  ))}
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* Regular team members */}
         <div
           ref={cardsRef}
-          className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 stagger-animation"
+          className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 stagger-animation"
         >
           {teamMembers.map((member, index) => (
             <div
@@ -99,16 +154,16 @@ const TeamSection = () => {
                 />
               </div>
               <div className="p-6">
-                <h3 className="text-lg font-semibold text-dental-navy mb-1">
+                <h3 className="text-lg font-semibold text-dental-olive mb-1">
                   {member.name}
                 </h3>
-                <p className="text-dental-teal font-medium text-sm mb-3">
+                <p className="text-dental-olive/80 font-medium text-sm mb-3">
                   {member.role}
                 </p>
                 <p className="text-gray-600 text-sm">
                   {member.description}
                 </p>
-                <button className="mt-4 text-dental-teal font-medium text-sm">
+                <button className="mt-4 text-dental-olive font-medium text-sm">
                   Scopri di più
                 </button>
               </div>
