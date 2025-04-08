@@ -1,4 +1,3 @@
-
 import type { Config } from "tailwindcss";
 
 export default {
@@ -29,16 +28,14 @@ export default {
 				background: 'hsl(var(--background))',
 				foreground: 'hsl(var(--foreground))',
 				dental: {
-					blue: '#1E88E5',
 					teal: '#20B2AA',
 					aqua: '#40E0D0',
-					lightblue: '#87CEEB',
 					navy: '#0A4D68',
 					white: '#FFFFFF',
 					offwhite: '#F8FBFF',
 					gray: '#F0F4F8',
-					stone: '#d7d5ca',  // New wall color
-					olive: '#949488',  // New wall color
+					stone: '#d7d5ca',
+					olive: '#949488',
 				},
 				primary: {
 					DEFAULT: 'hsl(var(--primary))',

@@ -1,17 +1,17 @@
 
 import { useEffect, useRef } from 'react';
-import { Stethoscope, AlignCenter, Glasses, Heart, Smile, Scissors, Baby, Activity } from 'lucide-react';
+import { Stethoscope, Heart, Glasses, Users, Smile, Scissors, Baby, Activity } from 'lucide-react';
 
 const services = [
   {
     title: "Ortodonzia",
     description: "Correzione delle malocclusioni e allineamento dentale nel rispetto dell'armonia facciale.",
-    icon: AlignCenter,
+    icon: Users,
   },
   {
     title: "Invisalign ®",
     description: "Apparecchi trasparenti e rimovibili per l'allineamento dentale senza metallo visibile.",
-    icon: Glasses,
+    icon: Smile,
   },
   {
     title: "Implantologia e Protesi",
@@ -21,17 +21,17 @@ const services = [
   {
     title: "Parodontologia",
     description: "Trattamenti per la cura delle gengive e dei tessuti di supporto del dente.",
-    icon: Smile,
+    icon: Stethoscope,
   },
   {
     title: "Chirurgia Orale",
     description: "Interventi chirurgici per risolvere problematiche dentali complesse e irreversibili.",
-    icon: Scissors,
+    icon: Activity,
   },
   {
     title: "Sbiancamento Dentale",
     description: "Tecniche professionali per schiarire i denti in modo sicuro ed efficace.",
-    icon: Activity,
+    icon: Glasses,
   },
   {
     title: "Pedodonzia",
@@ -41,7 +41,7 @@ const services = [
   {
     title: "Igiene Dentale",
     description: "Rimozione di placca e tartaro per mantenere la salute e l'igiene del cavo orale.",
-    icon: Stethoscope,
+    icon: Scissors,
   },
 ];
 
