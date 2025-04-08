@@ -1,8 +1,9 @@
 
 import { useEffect, useRef } from 'react';
+import { Phone } from 'lucide-react';
 
 const HeroSection = () => {
-  const sectionRef = useRef<HTMLElement>(null);
+  const sectionRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
     const observer = new IntersectionObserver(
@@ -45,7 +46,7 @@ const HeroSection = () => {
         <div className="absolute rounded-full w-96 h-96 bg-dental-teal/10 -bottom-48 -left-48"></div>
       </div>
 
-      <div className="container mx-auto px-4 md:px-6 relative z-10">
+      <div className="container mx-auto px-6 md:px-10 relative z-10">
         <div className="flex flex-col lg:flex-row items-center">
           <div className="lg:w-1/2 stagger-animation">
             <span className="inline-block bg-dental-teal/10 text-dental-teal px-4 py-2 rounded-full text-sm font-medium mb-4 animate-fade-in">
@@ -58,12 +59,13 @@ const HeroSection = () => {
               Il nostro impegno è offrire cure odontoiatriche di eccellenza in un ambiente confortevole e accogliente, con particolare attenzione alle esigenze di ogni paziente.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
-              <button 
-                onClick={() => scrollToSection('contact')}
-                className="btn-primary"
+              <a 
+                href="tel:0362801081"
+                className="flex items-center justify-center space-x-2 btn-primary"
               >
-                Prenota Visita
-              </button>
+                <Phone size={20} />
+                <span>Chiama ora per informazioni</span>
+              </a>
               <button 
                 onClick={() => scrollToSection('services')}
                 className="btn-secondary"

@@ -1,4 +1,3 @@
-
 import { useEffect } from 'react';
 import NavBar from '@/components/NavBar';
 import HeroSection from '@/components/HeroSection';
@@ -6,7 +5,6 @@ import ServicesSection from '@/components/ServicesSection';
 import TeamSection from '@/components/TeamSection';
 import TestimonialsSection from '@/components/TestimonialsSection';
 import LocationSection from '@/components/LocationSection';
-import ContactForm from '@/components/ContactForm';
 import Footer from '@/components/Footer';
 
 const Index = () => {
@@ -36,7 +34,6 @@ const Index = () => {
     };
   }, []);
 
-  // Back to top button functionality
   useEffect(() => {
     const handleScroll = () => {
       const backToTopButton = document.getElementById('back-to-top');
@@ -70,7 +67,6 @@ const Index = () => {
       <TeamSection />
       <TestimonialsSection />
       <LocationSection />
-      <ContactForm />
       <Footer />
 
       {/* Back to Top Button */}

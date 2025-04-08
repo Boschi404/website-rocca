@@ -1,36 +1,46 @@
 
 import { useEffect, useRef } from 'react';
-import { Stethoscope } from 'lucide-react';
+import { Stethoscope, AlignCenter, Glasses, Tooth, Smile, Scissors, Baby, Toothbrush } from 'lucide-react';
 
 const services = [
   {
-    title: "Odontoiatria Generale",
-    description: "Cure dentali preventive e terapeutiche per mantenere la salute orale e prevenire problemi futuri.",
-    icon: Stethoscope,
-  },
-  {
-    title: "Implantologia",
-    description: "Sostituzione di denti mancanti con impianti dentali di alta qualità per un sorriso naturale e funzionale.",
-    icon: Stethoscope,
-  },
-  {
     title: "Ortodonzia",
-    description: "Trattamenti per correggere il posizionamento dei denti e migliorare l'occlusione dentale.",
-    icon: Stethoscope,
+    description: "Correzione delle malocclusioni e allineamento dentale nel rispetto dell'armonia facciale.",
+    icon: AlignCenter,
+  },
+  {
+    title: "Invisalign ®",
+    description: "Apparecchi trasparenti e rimovibili per l'allineamento dentale senza metallo visibile.",
+    icon: Glasses,
+  },
+  {
+    title: "Implantologia e Protesi",
+    description: "Sostituzione dei denti naturali con impianti e protesi funzionali ed estetiche.",
+    icon: Tooth,
+  },
+  {
+    title: "Parodontologia",
+    description: "Trattamenti per la cura delle gengive e dei tessuti di supporto del dente.",
+    icon: Smile,
   },
   {
     title: "Chirurgia Orale",
-    description: "Interventi chirurgici per risolvere problemi complessi della cavità orale e delle strutture circostanti.",
-    icon: Stethoscope,
+    description: "Interventi chirurgici per risolvere problematiche dentali complesse e irreversibili.",
+    icon: Scissors,
   },
   {
-    title: "Estetica Dentale",
-    description: "Trattamenti per migliorare l'aspetto del sorriso, inclusi sbiancamento e faccette dentali.",
-    icon: Stethoscope,
+    title: "Sbiancamento Dentale",
+    description: "Tecniche professionali per schiarire i denti in modo sicuro ed efficace.",
+    icon: Toothbrush,
+  },
+  {
+    title: "Pedodonzia",
+    description: "Cure odontoiatriche pediatriche mirate alla prevenzione e al benessere del bambino.",
+    icon: Baby,
   },
   {
     title: "Igiene Dentale",
-    description: "Pulizia professionale e consigli personalizzati per mantenere una corretta igiene orale quotidiana.",
+    description: "Rimozione di placca e tartaro per mantenere la salute e l'igiene del cavo orale.",
     icon: Stethoscope,
   },
 ];
@@ -91,7 +101,7 @@ const ServicesSection = () => {
 
         <div 
           ref={cardsRef}
-          className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 stagger-animation"
+          className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 stagger-animation"
         >
           {services.map((service, index) => (
             <div

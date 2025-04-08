@@ -76,7 +76,7 @@ const NavBar = () => {
               Recensioni
             </a>
             <a 
-              onClick={() => scrollToSection('contact')}
+              onClick={() => scrollToSection('location')}
               className="font-medium text-gray-700 hover:text-dental-teal transition-colors cursor-pointer"
             >
               Contatti
@@ -133,7 +133,7 @@ const NavBar = () => {
               Recensioni
             </a>
             <a 
-              onClick={() => scrollToSection('contact')}
+              onClick={() => scrollToSection('location')}
               className="font-medium text-gray-700 hover:text-dental-teal transition-colors py-2 cursor-pointer"
             >
               Contatti

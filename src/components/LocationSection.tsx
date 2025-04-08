@@ -33,10 +33,10 @@ const LocationSection = () => {
       <div className="container mx-auto px-4 md:px-6">
         <div ref={sectionRef} className="text-center mb-16 stagger-animation">
           <span className="inline-block bg-dental-teal/10 text-dental-teal px-4 py-2 rounded-full text-sm font-medium mb-4">
-            Dove Siamo
+            Contatti
           </span>
           <h2 className="section-title">
-            Vieni a Trovarci
+            Come Raggiungerci
           </h2>
           <p className="section-subtitle">
             Lo studio si trova in una posizione facilmente raggiungibile nel centro di Besana in Brianza, con ampia disponibilità di parcheggio nelle vicinanze.
