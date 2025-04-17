@@ -4,25 +4,21 @@ import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious
 const testimonials = [
   {
     name: "Marco Rossi",
-    role: "Paziente dal 2019",
     content: "Da quando ho iniziato a farmi seguire dal Dr. Rocca, ho finalmente superato la mia paura del dentista. Professionalità e gentilezza contraddistinguono tutto lo staff.",
     rating: 5
   },
   {
     name: "Laura Bianchi",
-    role: "Paziente dal 2020",
     content: "Grazie all'implantologia del Dott. Rocca ho ritrovato il sorriso. Intervento indolore e risultato impeccabile. Consiglio vivamente questo studio a chiunque.",
     rating: 5
   },
   {
     name: "Alessandro Verdi",
-    role: "Paziente dal 2018",
     content: "Esperienza eccellente con tutta l'equipe. Cure di alta qualità, strumentazione all'avanguardia e ambiente sempre pulito e accogliente.",
     rating: 5
   },
   {
     name: "Giulia Neri",
-    role: "Paziente dal 2021",
     content: "Ho completato da poco il trattamento di ortodonzia e sono estremamente soddisfatta. Il Dr. Rocca ha seguito ogni fase con grande attenzione ai dettagli.",
     rating: 5
   }
@@ -104,7 +100,6 @@ const TestimonialsSection = () => {
                         <blockquote className="text-gray-600 italic mb-4 text-center">
                           "{testimonial.content}"
                         </blockquote>
-                        <p className="text-sm text-gray-500 text-center">{testimonial.role}</p>
                       </div>
                     </div>
                   </div>
