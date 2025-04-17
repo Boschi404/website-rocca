@@ -1,33 +1,28 @@
-
-import { useEffect, useRef, useState } from 'react';
+import React, { useEffect, useRef } from 'react';
 import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
 
 const testimonials = [
   {
     name: "Marco Rossi",
     role: "Paziente dal 2019",
-    image: "https://randomuser.me/api/portraits/men/32.jpg",
     content: "Da quando ho iniziato a farmi seguire dal Dr. Rocca, ho finalmente superato la mia paura del dentista. Professionalità e gentilezza contraddistinguono tutto lo staff.",
     rating: 5
   },
   {
     name: "Laura Bianchi",
     role: "Paziente dal 2020",
-    image: "https://randomuser.me/api/portraits/women/44.jpg",
     content: "Grazie all'implantologia del Dott. Rocca ho ritrovato il sorriso. Intervento indolore e risultato impeccabile. Consiglio vivamente questo studio a chiunque.",
     rating: 5
   },
   {
     name: "Alessandro Verdi",
     role: "Paziente dal 2018",
-    image: "https://randomuser.me/api/portraits/men/67.jpg",
     content: "Esperienza eccellente con tutta l'equipe. Cure di alta qualità, strumentazione all'avanguardia e ambiente sempre pulito e accogliente.",
     rating: 5
   },
   {
     name: "Giulia Neri",
     role: "Paziente dal 2021",
-    image: "https://randomuser.me/api/portraits/women/28.jpg",
     content: "Ho completato da poco il trattamento di ortodonzia e sono estremamente soddisfatta. Il Dr. Rocca ha seguito ogni fase con grande attenzione ai dettagli.",
     rating: 5
   }
@@ -87,15 +82,11 @@ const TestimonialsSection = () => {
                 <CarouselItem key={index} className="md:basis-1/2 lg:basis-1/2 pl-4">
                   <div className="bg-white p-6 rounded-xl shadow-md border border-gray-100 h-full">
                     <div className="flex flex-col h-full">
-                      <div className="shrink-0 mb-4">
-                        <img
-                          src={testimonial.image}
-                          alt={testimonial.name}
-                          className="w-16 h-16 rounded-full object-cover border-2 border-dental-olive"
-                        />
-                      </div>
                       <div>
-                        <div className="flex mb-2">
+                        <h4 className="text-lg font-semibold text-dental-olive mb-2 text-center">
+                          {testimonial.name}
+                        </h4>
+                        <div className="flex justify-center mb-2">
                           {[...Array(5)].map((_, i) => (
                             <svg
                               key={i}
@@ -110,15 +101,10 @@ const TestimonialsSection = () => {
                             </svg>
                           ))}
                         </div>
-                        <blockquote className="text-gray-600 italic mb-4 flex-grow">
+                        <blockquote className="text-gray-600 italic mb-4 text-center">
                           "{testimonial.content}"
                         </blockquote>
-                        <div className="mt-auto">
-                          <h4 className="font-semibold text-dental-navy">
-                            {testimonial.name}
-                          </h4>
-                          <p className="text-sm text-gray-500">{testimonial.role}</p>
-                        </div>
+                        <p className="text-sm text-gray-500 text-center">{testimonial.role}</p>
                       </div>
                     </div>
                   </div>
