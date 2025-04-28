@@ -1,6 +1,6 @@
 
 import { useEffect, useRef } from 'react';
-import { MapPin, Phone, Clock } from 'lucide-react';
+import { MapPin, Phone, Clock, Calendar } from 'lucide-react';
 
 const LocationSection = () => {
   const sectionRef = useRef<HTMLDivElement>(null);
@@ -70,8 +70,30 @@ const LocationSection = () => {
                 </div>
                 <div>
                   <h3 className="text-lg font-semibold text-dental-navy mb-1">Contatti</h3>
-                  <p className="text-gray-600">Telefono: <a href="tel:0362801081" className="hover:text-dental-teal">0362 801081</a></p>
-                  <p className="text-gray-600">Email: <a href="mailto:info@studiorocca.it" className="hover:text-dental-teal">info@studiorocca.it</a></p>
+                  <p className="text-gray-600">
+                    <a href="tel:0362801081" className="hover:text-dental-teal">0362 801081</a>
+                  </p>
+                  <p className="text-gray-600">
+                    <a href="mailto:info@studiorocca.it" className="hover:text-dental-teal">info@studiorocca.it</a>
+                  </p>
+                  <div className="flex flex-col sm:flex-row gap-3 mt-3">
+                    <a 
+                      href="tel:0362801081" 
+                      className="flex items-center justify-center space-x-2 bg-dental-teal text-white px-4 py-2 rounded-md hover:bg-opacity-90 transition-all text-sm"
+                    >
+                      <Phone size={16} />
+                      <span>Chiama Ora</span>
+                    </a>
+                    <a 
+                      href="https://www.miodottore.it/alessio-mario-rocca/dentista/besana-in-brianza?prevent-patient-app-banner=true&utm_source=google&utm_medium=gmb&utm_campaign=516181&utm_content=book_visit&hl=it-IT"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="flex items-center justify-center space-x-2 bg-dental-teal text-white px-4 py-2 rounded-md hover:bg-opacity-90 transition-all text-sm"
+                    >
+                      <Calendar size={16} />
+                      <span>Prenota Online</span>
+                    </a>
+                  </div>
                 </div>
               </div>
 

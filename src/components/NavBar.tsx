@@ -1,6 +1,5 @@
-
 import { useState, useEffect } from 'react';
-import { Phone } from 'lucide-react';
+import { Phone, Calendar } from 'lucide-react';
 
 const NavBar = () => {
   const [scrolled, setScrolled] = useState(false);
@@ -49,7 +48,6 @@ const NavBar = () => {
             </a>
           </div>
 
-          {/* Desktop Menu */}
           <nav className="hidden md:flex items-center space-x-8">
             <a 
               onClick={() => scrollToSection('home')}
@@ -81,16 +79,26 @@ const NavBar = () => {
             >
               Contatti
             </a>
-            <a 
-              href="tel:0362801081" 
-              className="flex items-center space-x-2 bg-dental-teal text-white px-4 py-2 rounded-md hover:bg-opacity-90 transition-all"
-            >
-              <Phone size={18} />
-              <span>0362 801081</span>
-            </a>
+            <div className="flex items-center space-x-4">
+              <a 
+                href="tel:0362801081" 
+                className="flex items-center space-x-2 bg-dental-teal text-white px-4 py-2 rounded-md hover:bg-opacity-90 transition-all"
+              >
+                <Phone size={18} />
+                <span>0362 801081</span>
+              </a>
+              <a 
+                href="https://www.miodottore.it/alessio-mario-rocca/dentista/besana-in-brianza?prevent-patient-app-banner=true&utm_source=google&utm_medium=gmb&utm_campaign=516181&utm_content=book_visit&hl=it-IT"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center space-x-2 bg-dental-teal text-white px-4 py-2 rounded-md hover:bg-opacity-90 transition-all"
+              >
+                <Calendar size={18} />
+                <span>Prenota Online</span>
+              </a>
+            </div>
           </nav>
 
-          {/* Mobile Menu Button */}
           <button 
             className="md:hidden focus:outline-none"
             onClick={toggleMobileMenu}
@@ -104,7 +112,6 @@ const NavBar = () => {
         </div>
       </div>
 
-      {/* Mobile Menu */}
       <div className={`md:hidden transition-all duration-300 overflow-hidden ${mobileMenuOpen ? 'max-h-96 border-b border-gray-200' : 'max-h-0'}`}>
         <div className="container mx-auto px-4 py-3 bg-white">
           <div className="flex flex-col space-y-4">
@@ -144,6 +151,15 @@ const NavBar = () => {
             >
               <Phone size={18} />
               <span>0362 801081</span>
+            </a>
+            <a 
+              href="https://www.miodottore.it/alessio-mario-rocca/dentista/besana-in-brianza?prevent-patient-app-banner=true&utm_source=google&utm_medium=gmb&utm_campaign=516181&utm_content=book_visit&hl=it-IT"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center justify-center space-x-2 bg-dental-teal text-white px-4 py-3 rounded-md hover:bg-opacity-90 transition-all"
+            >
+              <Calendar size={18} />
+              <span>Prenota Online</span>
             </a>
           </div>
         </div>
