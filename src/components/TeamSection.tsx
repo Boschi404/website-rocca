@@ -5,8 +5,8 @@ import { Card, CardContent } from "@/components/ui/card";
 
 // Owner profile (special layout)
 const ownerProfile = {
-  name: "Dr. Alessio Mario Rocca",
-  role: "Odontoiatra - Titolare",
+  name: "Dott. Alessio Rocca",
+  role: "DIRETTORE SANITARIO",
   image: "public/lovable-uploads/c9b4e27c-4368-4b3f-9441-cd242552287e.png",
   biography: "Si è laureato in odontoiatria e protesi dentaria nel 1998. Dal 1999 frequenta la Clinica Odontoiatrica dell'Ospedale S. Paolo di Milano, alternando attività di Tutor degli studenti del corso di laurea in Odontoiatria ad attività libero professionale e di medico frequentatore nei reparti di Protesi totale ed Implantoprotesi. Esercita attività professionale presso il proprio Studio. Presso lo Studio Dentistico Crosetto collabora da diversi anni per le specialitá di endodonzia, protesi fissa e mobile, ed implantoprotesi. Socio ordinario AIOP ed ANDI.\n\nIl suo approccio combina competenza tecnica, tecnologie all'avanguardia e una profonda comprensione delle esigenze dei pazienti, garantendo sempre i migliori risultati possibili."
 };
@@ -14,20 +14,32 @@ const ownerProfile = {
 // Regular team members
 const teamMembers = [
   {
-    name: "Dott. Filippo Varegio",
-    role: "Odontoiatra",
+    name: "Dott.ssa Fiorenza Crosetto",
+    role: "Ortodonzia - Pedodonzia",
     image: "public/lovable-uploads/c9b4e27c-4368-4b3f-9441-cd242552287e.png",
     description: "Specialista in implantologia e protesi dentali con un approccio mini-invasivo."
   },
   {
-    name: "Dott. Carlo Cantu",
-    role: "Odontoiatra",
+    name: "Dott. Alessandro Rossi",
+    role: "Chirurgia Odontostomatologica",
     image: "public/lovable-uploads/c9b4e27c-4368-4b3f-9441-cd242552287e.png",
     description: "Esperto in ortodonzia e trattamenti estetici per tutte le età."
   },
   {
-    name: "Dott.ssa Elisabetta Moro",
+    name: "Dott.ssa Serena Di Santo",
     role: "Igienista Dentale",
+    image: "public/lovable-uploads/c9b4e27c-4368-4b3f-9441-cd242552287e.png",
+    description: "Specializzata nella prevenzione e nell'educazione all'igiene orale."
+  },
+  {
+    name: "Antonella Saitta",
+    role: "Coordinazione - Amministrazione",
+    image: "public/lovable-uploads/c9b4e27c-4368-4b3f-9441-cd242552287e.png",
+    description: "Specializzata nella prevenzione e nell'educazione all'igiene orale."
+  },
+  {
+    name: "Giulia Lucisano",
+    role: "Assistente alla Poltrona",
     image: "public/lovable-uploads/c9b4e27c-4368-4b3f-9441-cd242552287e.png",
     description: "Specializzata nella prevenzione e nell'educazione all'igiene orale."
   }
