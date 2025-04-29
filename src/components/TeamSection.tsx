@@ -42,6 +42,12 @@ const teamMembers = [
     role: "Assistente alla Poltrona",
     image: "public/lovable-uploads/c9b4e27c-4368-4b3f-9441-cd242552287e.png",
     description: "Specializzata nella prevenzione e nell'educazione all'igiene orale."
+  },
+  {
+    name: "Dream",
+    role: "Pet Therapy",
+    image: "public/lovable-uploads/c9b4e27c-4368-4b3f-9441-cd242552287e.png",
+    description: "Specializzato in coccole e grattini."
   }
 ];
 
