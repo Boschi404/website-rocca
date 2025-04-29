@@ -7,7 +7,7 @@ import { Card, CardContent } from "@/components/ui/card";
 const ownerProfile = {
   name: "Dott. Alessio Rocca",
   role: "DIRETTORE SANITARIO",
-  image: "public/src/images/alessio-rocca-pfp.jpg",
+  image: "src/images/alessio-rocca-pfp.jpg",
   biography: "Si è laureato in odontoiatria e protesi dentaria nel 1998. Dal 1999 frequenta la Clinica Odontoiatrica dell'Ospedale S. Paolo di Milano, alternando attività di Tutor degli studenti del corso di laurea in Odontoiatria ad attività libero professionale e di medico frequentatore nei reparti di Protesi totale ed Implantoprotesi. Esercita attività professionale presso il proprio Studio. Presso lo Studio Dentistico Crosetto collabora da diversi anni per le specialitá di endodonzia, protesi fissa e mobile, ed implantoprotesi. Socio ordinario AIOP ed ANDI.\n\nIl suo approccio combina competenza tecnica, tecnologie all'avanguardia e una profonda comprensione delle esigenze dei pazienti, garantendo sempre i migliori risultati possibili."
 };
 
@@ -46,7 +46,7 @@ const teamMembers = [
   {
     name: "Dream",
     role: "Pet Therapy",
-    image: "public/src/images/dream2.jpeg",
+    image: "src/images/dream2.jpeg",
     description: "Specializzato in coccole e grattini."
   }
 ];
