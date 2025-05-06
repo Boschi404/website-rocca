@@ -61,6 +61,19 @@ const Index = () => {
     });
   };
 
+  // Set favicon dynamically to match the logo
+  useEffect(() => {
+    const link = document.querySelector("link[rel~='icon']") as HTMLLinkElement;
+    if (!link) {
+      const newLink = document.createElement('link');
+      newLink.rel = 'icon';
+      newLink.href = '/lovable-uploads/39743b5e-1f77-4e20-b310-8cc86f0aa517.png';
+      document.head.appendChild(newLink);
+    } else {
+      link.href = '/lovable-uploads/39743b5e-1f77-4e20-b310-8cc86f0aa517.png';
+    }
+  }, []);
+
   return (
     <div className="min-h-screen bg-white">
       <NavBar />

@@ -1,3 +1,4 @@
+
 import { useState, useEffect } from 'react';
 import { Phone, Calendar } from 'lucide-react';
 
@@ -41,10 +42,12 @@ const NavBar = () => {
       <div className="container mx-auto px-4 md:px-6">
         <div className="flex items-center justify-between">
           <div className="flex items-center">
-            <a href="#home" className="flex items-center space-x-2">
-              <div className="font-bold text-2xl text-dental-navy">
-                <span className="text-dental-teal">ROCCA</span>
-              </div>
+            <a href="#home" className="flex items-center">
+              <img 
+                src="/lovable-uploads/39743b5e-1f77-4e20-b310-8cc86f0aa517.png" 
+                alt="ROCCA Studio Odontoiatrico" 
+                className="h-12 md:h-14"
+              />
             </a>
           </div>
 
