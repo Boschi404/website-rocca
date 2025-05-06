@@ -42,12 +42,9 @@ const NavBar = () => {
       <div className="container mx-auto px-4 md:px-6">
         <div className="flex items-center justify-between">
           <div className="flex items-center">
-            <a href="#home" className="flex items-center">
-              <img 
-                src="/lovable-uploads/39743b5e-1f77-4e20-b310-8cc86f0aa517.png" 
-                alt="ROCCA Studio Odontoiatrico" 
-                className="h-12 md:h-14"
-              />
+            <a href="#home" className="flex items-center space-x-2">
+              <div className="font-bold text-2xl text-dental-navy">
+              </div>
             </a>
           </div>
 
@@ -62,13 +59,19 @@ const NavBar = () => {
               onClick={() => scrollToSection('services')}
               className="font-medium text-gray-700 hover:text-dental-teal transition-colors cursor-pointer"
             >
-              Servizi
+              Trattamenti
             </a>
             <a 
               onClick={() => scrollToSection('team')}
               className="font-medium text-gray-700 hover:text-dental-teal transition-colors cursor-pointer"
             >
               Team
+            </a>
+            <a 
+              onClick={() => scrollToSection('studio')}
+              className="font-medium text-gray-700 hover:text-dental-teal transition-colors cursor-pointer"
+            >
+              Studio
             </a>
             <a 
               onClick={() => scrollToSection('testimonials')}
@@ -135,6 +138,12 @@ const NavBar = () => {
               className="font-medium text-gray-700 hover:text-dental-teal transition-colors py-2 cursor-pointer"
             >
               Team
+            </a>
+            <a 
+              onClick={() => scrollToSection('studio')}
+              className="font-medium text-gray-700 hover:text-dental-teal transition-colors cursor-pointer"
+            >
+              Studio
             </a>
             <a 
               onClick={() => scrollToSection('testimonials')}

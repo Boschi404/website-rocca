@@ -48,7 +48,7 @@ const HeroSection = () => {
           <div className="lg:w-1/2 stagger-animation">
             <div className="mb-6">
               <img 
-                src="/lovable-uploads/39743b5e-1f77-4e20-b310-8cc86f0aa517.png" 
+                src="src/images/rocca-logo-def.png" 
                 alt="ROCCA Studio Odontoiatrico" 
                 className="max-w-[300px] md:max-w-[400px] mx-auto lg:mx-0"
               />
