@@ -8,7 +8,7 @@ import { AspectRatio } from "@/components/ui/aspect-ratio";
 const ownerProfile = {
   name: "Dott. Alessio Rocca",
   role: "DIRETTORE SANITARIO",
-  image: "public/lovable-uploads/49bb9c85-f41f-4794-8af3-30143abe7634.png",
+  image: "public/images/foto-rocca-21.jpg",
   biography: "Si è laureato in odontoiatria e protesi dentaria nel 1998. Dal 1999 frequenta la Clinica Odontoiatrica dell'Ospedale S. Paolo di Milano, alternando attività di Tutor degli studenti del corso di laurea in Odontoiatria ad attività libero professionale e di medico frequentatore nei reparti di Protesi totale ed Implantoprotesi. Esercita attività professionale presso il proprio Studio. Presso lo Studio Dentistico Crosetto collabora da diversi anni per le specialitá di endodonzia, protesi fissa e mobile, ed implantoprotesi. Socio ordinario AIOP ed ANDI.\n\nIl suo approccio combina competenza tecnica, tecnologie all'avanguardia e una profonda comprensione delle esigenze dei pazienti, garantendo sempre i migliori risultati possibili."
 };
 
@@ -35,13 +35,13 @@ const teamMembers = [
   {
     name: "Antonella Saitta",
     role: "Coordinazione - Amministrazione",
-    image: "public/lovable-uploads/6eb33d67-d31c-448b-b17c-f41eb926d867.png",
+    image: "public/images/foto-rocca-18.jpg",
     description: "Specializzata nella prevenzione e nell'educazione all'igiene orale."
   },
   {
     name: "Giulia Lucisano",
     role: "Assistente alla Poltrona",
-    image: "public/lovable-uploads/7824fdde-348a-43c4-9c5b-a18031e8fc81.png",
+    image: "public/images/foto-rocca-19.jpg",
     description: "Specializzata nella prevenzione e nell'educazione all'igiene orale."
   },
   {
