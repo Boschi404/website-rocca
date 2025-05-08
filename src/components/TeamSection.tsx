@@ -2,6 +2,7 @@
 import { useEffect, useRef } from 'react';
 import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
 import { Card, CardContent } from "@/components/ui/card";
+import { AspectRatio } from "@/components/ui/aspect-ratio";
 
 // Owner profile (special layout)
 const ownerProfile = {
@@ -164,13 +165,13 @@ const TeamSection = () => {
               key={index}
               className="bg-white rounded-xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 card-hover"
             >
-              <div className="h-60 overflow-hidden">
+              <AspectRatio ratio={3/4} className="overflow-hidden">
                 <img
                   src={member.image}
                   alt={member.name}
                   className="w-full h-full object-cover object-center transform hover:scale-105 transition-transform duration-500"
                 />
-              </div>
+              </AspectRatio>
               <div className="p-6">
                 <h3 className="text-lg font-semibold text-dental-olive mb-1">
                   {member.name}
