@@ -47,7 +47,7 @@ const teamMembers = [
   {
     name: "Dream",
     role: "Pet Therapy",
-    image: "src/images/dream2.jpeg",
+    image: "public/images/dream2.jpeg",
     description: "Specializzato in coccole e grattini."
   }
 ];
@@ -126,7 +126,7 @@ const TeamSection = () => {
             <div className="flex flex-col lg:flex-row">
               <div className="lg:w-1/3">
                 <div className="h-full flex flex-col items-center justify-center p-6 lg:p-10 bg-dental-olive/5">
-                  <div className="mb-6 w-48 h-48 overflow-hidden rounded-full border-4 border-dental-stone">
+                  <div className="mb-6 w-60 h-60 overflow-hidden rounded-full border-4 border-dental-stone">
                     <img
                       src={ownerProfile.image}
                       alt={ownerProfile.name}
