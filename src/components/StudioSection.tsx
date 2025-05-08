@@ -4,8 +4,8 @@ import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious
 
 const studioImages = [
   {
-    src: "public/lovable-uploads/c9b4e27c-4368-4b3f-9441-cd242552287e.png",
-    alt: "Studio dentistico - Area accoglienza"
+    src: "public/lovable-uploads/8e13033b-6345-44da-b5cb-c483214f1926.png",
+    alt: "Studio dentistico - Consultazione con paziente"
   },
   {
     src: "public/lovable-uploads/c9b4e27c-4368-4b3f-9441-cd242552287e.png",

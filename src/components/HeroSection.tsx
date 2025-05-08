@@ -96,7 +96,7 @@ const HeroSection = () => {
           <div className="lg:w-1/2 mt-12 lg:mt-0 flex justify-center">
             <div className="relative w-full max-w-md">
               <div className="absolute inset-0 bg-dental-olive/20 rounded-full blur-3xl animate-pulse-soft"></div>
-              <img src="https://images.unsplash.com/photo-1606811841689-23dfddce3e95?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80" alt="Paziente sorridente" className="relative z-10 rounded-2xl shadow-xl animate-fade-in-up object-cover w-full" />
+              <img src="public/lovable-uploads/8e13033b-6345-44da-b5cb-c483214f1926.png" alt="Studio dentistico in azione" className="relative z-10 rounded-2xl shadow-xl animate-fade-in-up object-cover w-full" />
               <div className="absolute -bottom-4 -right-4 bg-white rounded-lg shadow-lg p-4 z-20 animate-fade-in">
                 <div className="flex items-center space-x-2">
                   <div className="flex">

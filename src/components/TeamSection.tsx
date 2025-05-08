@@ -34,13 +34,13 @@ const teamMembers = [
   {
     name: "Antonella Saitta",
     role: "Coordinazione - Amministrazione",
-    image: "public/lovable-uploads/c9b4e27c-4368-4b3f-9441-cd242552287e.png",
+    image: "public/lovable-uploads/6eb33d67-d31c-448b-b17c-f41eb926d867.png",
     description: "Specializzata nella prevenzione e nell'educazione all'igiene orale."
   },
   {
     name: "Giulia Lucisano",
     role: "Assistente alla Poltrona",
-    image: "public/lovable-uploads/c9b4e27c-4368-4b3f-9441-cd242552287e.png",
+    image: "public/lovable-uploads/7824fdde-348a-43c4-9c5b-a18031e8fc81.png",
     description: "Specializzata nella prevenzione e nell'educazione all'igiene orale."
   },
   {
