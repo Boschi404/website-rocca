@@ -1,47 +1,47 @@
 
 import { useEffect, useRef } from 'react';
-import { Stethoscope, Heart, Glasses, Users, Smile, Scissors, Baby, Activity } from 'lucide-react';
 
+// Define service objects with descriptions and icon paths
 const services = [
   {
     title: "Ortodonzia",
     description: "Correzione delle malocclusioni e allineamento dentale nel rispetto dell'armonia facciale.",
-    icon: Users,
+    iconSrc: "/lovable-uploads/55fde884-a138-47e4-9337-75fdf70a525a.png",
   },
   {
     title: "Invisalign ®",
     description: "Apparecchi trasparenti e rimovibili per l'allineamento dentale senza metallo visibile.",
-    icon: Smile,
+    iconSrc: "/lovable-uploads/4d52a803-c6f4-44ca-a91b-92a7537ff338.png",
   },
   {
     title: "Implantologia e Protesi",
     description: "Sostituzione dei denti naturali con impianti e protesi funzionali ed estetiche.",
-    icon: Heart,
+    iconSrc: "/lovable-uploads/25e820df-4af3-4fa1-b373-1060835063d1.png",
   },
   {
     title: "Parodontologia",
     description: "Trattamenti per la cura delle gengive e dei tessuti di supporto del dente.",
-    icon: Stethoscope,
+    iconSrc: "/lovable-uploads/d61109db-0346-46f5-98ee-c25a130f2631.png",
   },
   {
     title: "Chirurgia Orale",
     description: "Interventi chirurgici per risolvere problematiche dentali complesse e irreversibili.",
-    icon: Activity,
+    iconSrc: "/lovable-uploads/58340e22-0142-40d4-9cc7-8757b1328650.png",
   },
   {
     title: "Sbiancamento Dentale",
     description: "Tecniche professionali per schiarire i denti in modo sicuro ed efficace.",
-    icon: Glasses,
+    iconSrc: "/lovable-uploads/ea94163e-c47d-40a9-8e10-ca5b980f73a7.png",
   },
   {
     title: "Pedodonzia",
     description: "Cure odontoiatriche pediatriche mirate alla prevenzione e al benessere del bambino.",
-    icon: Baby,
+    iconSrc: "/lovable-uploads/04afba94-3217-4d4e-85a4-64a03cd0edef.png",
   },
   {
     title: "Igiene Dentale",
     description: "Rimozione di placca e tartaro per mantenere la salute e l'igiene del cavo orale.",
-    icon: Scissors,
+    iconSrc: "/lovable-uploads/55fde884-a138-47e4-9337-75fdf70a525a.png", // Using the same icon as Ortodonzia for now
   },
 ];
 
@@ -108,8 +108,12 @@ const ServicesSection = () => {
               key={index}
               className="bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition-all duration-300 border border-dental-stone/30 card-hover"
             >
-              <div className="mb-4 w-14 h-14 rounded-full bg-dental-olive/10 flex items-center justify-center">
-                <service.icon size={28} className="text-dental-olive" />
+              <div className="mb-4 w-16 h-16 rounded-full bg-dental-olive/10 flex items-center justify-center">
+                <img 
+                  src={service.iconSrc} 
+                  alt={`${service.title} icon`} 
+                  className="w-10 h-10 object-contain"
+                />
               </div>
               <h3 className="text-xl font-semibold text-dental-olive mb-3">
                 {service.title}

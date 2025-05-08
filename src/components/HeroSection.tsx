@@ -1,6 +1,6 @@
 
 import { useEffect, useRef } from 'react';
-import { Phone } from 'lucide-react';
+import { Phone, Calendar } from 'lucide-react';
 
 const HeroSection = () => {
   const sectionRef = useRef<HTMLDivElement>(null);
@@ -61,9 +61,15 @@ const HeroSection = () => {
                 <Phone size={20} />
                 <span>Chiama ora per informazioni</span>
               </a>
-              <button onClick={() => scrollToSection('services')} className="bg-white text-[#9a9a8f] font-medium py-3 px-6 rounded-md shadow-md hover:shadow-lg border border-[#9a9a8f] transition-all duration-300">
-                Scopri i Servizi
-              </button>
+              <a 
+                href="https://www.miodottore.it/alessio-mario-rocca/dentista/besana-in-brianza?prevent-patient-app-banner=true&utm_source=google&utm_medium=gmb&utm_campaign=516181&utm_content=book_visit&hl=it-IT&gei=RKcPaIjaKOCwi-gPxbSrUQ&rwg_token=AAiGsobvwMZVpbgL2LYEuA19yN8gCG0qSFRNVGqXOth-cmGh8nE-fegK3O7mAvHGd18QNdQIEP05vjJWdH8K0a399gZNydZijw%3D%3D#highlight-calendar" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className="flex items-center justify-center space-x-2 bg-[#9a9a8f] text-white font-medium py-3 px-6 rounded-md shadow-md hover:shadow-lg hover:bg-opacity-90 transition-all duration-300"
+              >
+                <Calendar size={20} />
+                <span>Prenota online</span>
+              </a>
             </div>
             <div className="mt-10 flex items-center space-x-6">
               <div className="flex items-center space-x-2">
