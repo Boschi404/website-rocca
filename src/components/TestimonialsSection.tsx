@@ -49,7 +49,7 @@ const testimonials = [
   },
   {
     name: "Rosario De Angelis",
-    content: "Ho avuto un'esperienza eccellente presso lo Studio Odontoiatrico del Dott. Alessio Rocca. Fin dal primo momento, mi sono sentito accolto con professionalità e cortesia. Il dottore e il suo staff sono estremamente competenti, attenti ai dettagli e sempre pronti a rispondere a qualsiasi domanda con chiarezza. L'ambiente è moderno, pulito e confortevole, il che aiuta a sentirsi a proprio agio anche in situazioni che di solito possono generare ansia. Durante il trattamento, ho apprezzato la delicatezza e la precisione con cui è stato eseguito il lavoro, senza alcun disagio. Consiglio vivamente questo studio a chiunque cerchi un dentista di fiducia.",
+    content: "Ho avuto un'esperienza eccellente presso lo Studio Odontoiatrico del Dott. Alessio Rocca. Fin dal primo momento, mi sono sentito accolto con professionalità e cortesia.",
     rating: 5
   }
 ];
