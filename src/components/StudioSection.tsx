@@ -30,6 +30,46 @@ const studioImages = [
   {
     src: "/images/foto-rocca-7.jpg",
     alt: "Studio dentistico - Ingresso"
+  },
+  {
+    src: "/images/foto-rocca-8.jpg",
+    alt: "Studio dentistico - Ingresso"
+  },
+  {
+    src: "/images/foto-rocca-9.jpg",
+    alt: "Studio dentistico - Ingresso"
+  },
+  {
+    src: "/images/foto-rocca-10.jpg",
+    alt: "Studio dentistico - Ingresso"
+  },
+  {
+    src: "/images/foto-rocca-11.jpg",
+    alt: "Studio dentistico - Ingresso"
+  },
+  {
+    src: "/images/foto-rocca-12.jpg",
+    alt: "Studio dentistico - Ingresso"
+  },
+  {
+    src: "/images/foto-rocca-13.jpg",
+    alt: "Studio dentistico - Ingresso"
+  },
+  {
+    src: "/images/foto-rocca-14.jpg",
+    alt: "Studio dentistico - Ingresso"
+  },
+  {
+    src: "/images/foto-rocca-15.jpg",
+    alt: "Studio dentistico - Ingresso"
+  },
+  {
+    src: "/images/foto-rocca-16.jpg",
+    alt: "Studio dentistico - Ingresso"
+  },
+  {
+    src: "/images/foto-rocca-17.jpg",
+    alt: "Studio dentistico - Ingresso"
   }
 ];
 

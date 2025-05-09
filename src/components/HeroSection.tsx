@@ -47,7 +47,7 @@ const HeroSection = () => {
         <div className="flex flex-col lg:flex-row items-center">
           <div className="lg:w-1/2 stagger-animation">
             <div className="mb-6">
-              <img src="/public/images/rocca-logo-def.png" alt="ROCCA Studio Odontoiatrico" className="max-w-[300px] md:max-w-[400px] mx-auto lg:mx-0" />
+              <img src="/images/rocca-logo-def.png" alt="ROCCA Studio Odontoiatrico" className="max-w-[4400px] md:max-w-[600px] mx-auto lg:mx-0" />
             </div>
             <p className="text-lg text-gray-600 mb-8 max-w-lg">
               Il nostro impegno è offrire cure odontoiatriche di eccellenza in un ambiente confortevole e accogliente, con particolare attenzione alle esigenze di ogni paziente.
@@ -69,13 +69,13 @@ const HeroSection = () => {
                 </div>
                 <div>
                   <p className="font-medium text-dental-navy text-base">Valutazione eccellente</p>
-                  <p className="text-gray-500 text-sm">Basato su 4 recensioni</p>
+                  <p className="text-gray-500 text-sm">Basato su 16 recensioni</p>
                 </div>
               </div>
               <div className="h-8 w-px bg-gray-200"></div>
               <div className="flex items-center space-x-2">
                 <div className="w-10 h-10 rounded-full bg-dental-olive/10 flex items-center justify-center">
-                  <span className="text-[#9a9a8f] font-bold text-lg">15+</span>
+                  <span className="text-[#9a9a8f] font-bold text-lg">20+</span>
                 </div>
                 <div>
                   <p className="font-medium text-dental-navy text-base">Anni di esperienza</p>
@@ -99,7 +99,7 @@ const HeroSection = () => {
                   </div>
                   <span className="text-dental-navy text-lg font-extrabold">5.0/5.0</span>
                 </div>
-                <p className="mt-1 text-gray-500 text-xs">basato su 4 recensioni</p>
+                <p className="mt-1 text-gray-500 text-xs">basato su 16 recensioni</p>
               </div>
             </div>
           </div>
