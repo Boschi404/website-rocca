@@ -3,23 +3,53 @@ import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious
 
 const testimonials = [
   {
-    name: "Marco Rossi",
-    content: "Da quando ho iniziato a farmi seguire dal Dr. Rocca, ho finalmente superato la mia paura del dentista. Professionalità e gentilezza contraddistinguono tutto lo staff.",
+    name: "Maria Cristina Redaelli",
+    content: "Consigliatissimo. Staff super professionale che ti fa sentire a tuo agio, in ambiente ricercato e rilassante.",
     rating: 5
   },
   {
-    name: "Laura Bianchi",
-    content: "Grazie all'implantologia del Dott. Rocca ho ritrovato il sorriso. Intervento indolore e risultato impeccabile. Consiglio vivamente questo studio a chiunque.",
+    name: "Lansel",
+    content: "Studio dentistico eccellente! Personale cortese e professionale, ambiente pulito e moderno. Trattamenti eseguiti con precisione e senza stress. Consigliatissimo!",
     rating: 5
   },
   {
-    name: "Alessandro Verdi",
-    content: "Esperienza eccellente con tutta l'equipe. Cure di alta qualità, strumentazione all'avanguardia e ambiente sempre pulito e accogliente.",
+    name: "Annalisa Riva",
+    content: "Super consigliato! Ottima accoglienza e grande attenzione alla cura del paziente.",
     rating: 5
   },
   {
-    name: "Giulia Neri",
-    content: "Ho completato da poco il trattamento di ortodonzia e sono estremamente soddisfatta. Il Dr. Rocca ha seguito ogni fase con grande attenzione ai dettagli.",
+    name: "Leonardo D'apote",
+    content: "Ottimo studio , il dottore un grande professionista molto professionale lo consiglio.",
+    rating: 5
+  },
+  {
+    name: "Gabriele Busato",
+    content: "Personale cordiale e gentile, massima competenza e professionalità.",
+    rating: 5
+  },
+  {
+    name: "Melissa Matarazzo",
+    content: "Professionali e competenti, lo consiglio vivamente!",
+    rating: 5
+  },
+  {
+    name: "Palma Martucci",
+    content: "Tanta professionalità in un ambiente molto sofisticato.",
+    rating: 5
+  },
+  {
+    name: "E. Vi",
+    content: "Studio dentistico in centro a Besana vicino alla stazione, studio molto pulito, per me molto importante! Personale che ti mette a tuo agio, molto attento alla cura. Ormai da anni è il mio dentista",
+    rating: 5
+  },
+  {
+    name: "Master Mind",
+    content: "Professionalità ad alti livelli.",
+    rating: 5
+  },
+  {
+    name: "Rosario De Angelis",
+    content: "Ho avuto un'esperienza eccellente presso lo Studio Odontoiatrico del Dott. Alessio Rocca. Fin dal primo momento, mi sono sentito accolto con professionalità e cortesia. Il dottore e il suo staff sono estremamente competenti, attenti ai dettagli e sempre pronti a rispondere a qualsiasi domanda con chiarezza. L'ambiente è moderno, pulito e confortevole, il che aiuta a sentirsi a proprio agio anche in situazioni che di solito possono generare ansia. Durante il trattamento, ho apprezzato la delicatezza e la precisione con cui è stato eseguito il lavoro, senza alcun disagio. Consiglio vivamente questo studio a chiunque cerchi un dentista di fiducia.",
     rating: 5
   }
 ];
