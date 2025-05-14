@@ -53,11 +53,11 @@ const HeroSection = () => {
               Il nostro impegno è offrire cure odontoiatriche di eccellenza in un ambiente confortevole e accogliente, con particolare attenzione alle esigenze di ogni paziente.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
-              <a href="tel:0362801081" className="flex items-center justify-center space-x-2 bg-[#9a9a8f] text-white font-medium py-3 px-6 rounded-md shadow-md hover:shadow-lg hover:bg-opacity-90 transition-all duration-300">
+              <a href="tel:0362801081" className="flex items-center justify-center space-x-2 bg-dental-blue text-white font-medium py-3 px-6 rounded-md shadow-md hover:shadow-lg hover:bg-opacity-90 transition-all duration-300">
                 <Phone size={20} />
                 <span>Chiama ora per informazioni</span>
               </a>
-              <a href="https://www.miodottore.it/alessio-mario-rocca/dentista/besana-in-brianza?prevent-patient-app-banner=true&utm_source=google&utm_medium=gmb&utm_campaign=516181&utm_content=book_visit&hl=it-IT&gei=RKcPaIjaKOCwi-gPxbSrUQ&rwg_token=AAiGsobvwMZVpbgL2LYEuA19yN8gCG0qSFRNVGqXOth-cmGh8nE-fegK3O7mAvHGd18QNdQIEP05vjJWdH8K0a399gZNydZijw%3D%3D#highlight-calendar" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center space-x-2 bg-[#9a9a8f] text-white font-medium py-3 px-6 rounded-md shadow-md hover:shadow-lg hover:bg-opacity-90 transition-all duration-300">
+              <a href="https://www.miodottore.it/alessio-mario-rocca/dentista/besana-in-brianza?prevent-patient-app-banner=true&utm_source=google&utm_medium=gmb&utm_campaign=516181&utm_content=book_visit&hl=it-IT&gei=RKcPaIjaKOCwi-gPxbSrUQ&rwg_token=AAiGsobvwMZVpbgL2LYEuA19yN8gCG0qSFRNVGqXOth-cmGh8nE-fegK3O7mAvHGd18QNdQIEP05vjJWdH8K0a399gZNydZijw%3D%3D#highlight-calendar" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center space-x-2 bg-dental-blue text-white font-medium py-3 px-6 rounded-md shadow-md hover:shadow-lg hover:bg-opacity-90 transition-all duration-300">
                 <Calendar size={20} />
                 <span>Prenota online</span>
               </a>

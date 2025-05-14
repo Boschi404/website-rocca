@@ -36,6 +36,7 @@ export default {
 					gray: '#F0F4F8',
 					stone: '#d7d5ca',
 					olive: '#949488',
+					blue: '#0b4c68',  // Added new color
 				},
 				primary: {
 					DEFAULT: 'hsl(var(--primary))',
