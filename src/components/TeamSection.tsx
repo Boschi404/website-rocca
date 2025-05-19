@@ -104,7 +104,7 @@ const TeamSection = () => {
           <span className="inline-block bg-dental-olive/10 text-dental-olive px-4 py-2 rounded-full text-sm font-medium mb-4">
             Il Nostro Team
           </span>
-          <h2 className="section-title text-dental-olive font-bold text-3xl">
+          <h2 className="section-title font-bold text-3xl">
             Professionisti Esperti al Tuo Servizio
           </h2>
           <p className="section-subtitle">
@@ -121,7 +121,7 @@ const TeamSection = () => {
                   <div className="mb-6 w-60 h-60 overflow-hidden rounded-full border-4 border-dental-stone">
                     <img src={ownerProfile.image} alt={ownerProfile.name} className="w-full h-full object-cover object-center" />
                   </div>
-                  <h3 className="font-bold text-dental-olive mb-2 text-center text-3xl">
+                  <h3 className="font-bold mb-2 text-center text-3xl">
                     {ownerProfile.name}
                   </h3>
                   <p className="text-dental-olive/80 font-medium text-lg mb-3 text-center">
@@ -155,7 +155,7 @@ const TeamSection = () => {
                 />
               </AspectRatio>
               <div className="p-6">
-                <h3 className="font-semibold text-dental-olive mb-1 text-xl">
+                <h3 className="font-semibold mb-1 text-xl">
                   {member.name}
                 </h3>
                 <p className="text-dental-olive/80 font-medium text-sm mb-3">
@@ -164,9 +164,6 @@ const TeamSection = () => {
                 <p className="text-gray-600 text-sm">
                   {member.description}
                 </p>
-                <button className="mt-4 text-dental-olive font-medium text-sm">
-                  Scopri di più
-                </button>
               </div>
             </div>
           ))}

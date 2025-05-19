@@ -4,11 +4,11 @@ import { useEffect, useRef } from 'react';
 const services = [{
   title: "Ortodonzia",
   description: "Correzione delle malocclusioni e allineamento dentale nel rispetto dell'armonia facciale.",
-  iconSrc: "/lovable-uploads/55fde884-a138-47e4-9337-75fdf70a525a.png"
+  iconSrc: "/lovable-uploads/04afba94-3217-4d4e-85a4-64a03cd0edef.png"
 }, {
   title: "Invisalign ®",
   description: "Apparecchi trasparenti e rimovibili per l'allineamento dentale senza metallo visibile.",
-  iconSrc: "/lovable-uploads/4d52a803-c6f4-44ca-a91b-92a7537ff338.png"
+  iconSrc: "/lovable-uploads/55fde884-a138-47e4-9337-75fdf70a525a.png"
 }, {
   title: "Implantologia e Protesi",
   description: "Sostituzione dei denti naturali con impianti e protesi funzionali ed estetiche.",
@@ -32,7 +32,7 @@ const services = [{
 }, {
   title: "Igiene Dentale",
   description: "Rimozione di placca e tartaro per mantenere la salute e l'igiene del cavo orale.",
-  iconSrc: "/lovable-uploads/55fde884-a138-47e4-9337-75fdf70a525a.png" // Using the same icon as Ortodonzia for now
+  iconSrc: "/lovable-uploads/55fde884-a138-47e4-9337-75fdf70a525a.png"
 }];
 const ServicesSection = () => {
   const sectionRef = useRef<HTMLDivElement>(null);
