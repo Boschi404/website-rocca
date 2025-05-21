@@ -92,7 +92,7 @@ const StudioSection = () => {
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
             {studioImages.map((image, index) => <div key={index} className="group overflow-hidden rounded-xl">
                 <AspectRatio ratio={4 / 3} className="bg-muted">
-                  <img src={image.src} alt={image.alt} className="w-full h-full object-cover transition-all duration-300 group-hover:scale-105" />
+                  <img src={image.src} alt={image.alt} className="w-full h-full transition-all duration-300 group-hover:scale-105 shadow-md object-cover" />
                 </AspectRatio>
               </div>)}
           </div>
