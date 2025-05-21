@@ -1,4 +1,3 @@
-
 import { useEffect, useRef } from 'react';
 import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
 import { Card, CardContent } from "@/components/ui/card";
@@ -13,50 +12,41 @@ const ownerProfile = {
 };
 
 // Regular team members
-const teamMembers = [
-  {
-    name: "Dott.ssa Fiorenza Crosetto",
-    role: "Ortodonzia - Pedodonzia",
-    image: "/images/foto-rocca-8.jpg",
-    description: "Specialista in implantologia e protesi dentali con un approccio mini-invasivo."
-  }, 
-  {
-    name: "Dott. Alessandro Rossi",
-    role: "Chirurgia Odontostomatologica",
-    image: "/images/foto-rocca-9.jpg",
-    description: "Esperto in ortodonzia e trattamenti estetici per tutte le età."
-  }, 
-  {
-    name: "Dott.ssa Serena Di Santo",
-    role: "Igienista Dentale",
-    image: "/images/foto-rocca-10.jpg",
-    description: "Specializzata nella prevenzione e nell'educazione all'igiene orale."
-  }, 
-  {
-    name: "Antonella Saitta",
-    role: "Coordinazione - Amministrazione",
-    image: "/images/foto-rocca-18.jpg",
-    description: "Gestione appuntamenti e accoglienza pazienti."
-  }, 
-  {
-    name: "Giulia Lucisano",
-    role: "Assistente alla Poltrona",
-    image: "/images/foto-rocca-19.jpg",
-    description: "Supporto durante gli interventi e preparazione strumentazione."
-  }, 
-  {
-    name: "Dream",
-    role: "Pet Therapy",
-    image: "/images/dream2.jpeg",
-    description: "Specializzato in coccole e grattini."
-  }
-];
-
+const teamMembers = [{
+  name: "Dott.ssa Fiorenza Crosetto",
+  role: "Ortodonzia - Pedodonzia",
+  image: "/images/foto-rocca-8.jpg",
+  description: "Specialista in implantologia e protesi dentali con un approccio mini-invasivo."
+}, {
+  name: "Dott. Alessandro Rossi",
+  role: "Chirurgia Odontostomatologica",
+  image: "/images/foto-rocca-9.jpg",
+  description: "Esperto in ortodonzia e trattamenti estetici per tutte le età."
+}, {
+  name: "Dott.ssa Serena Di Santo",
+  role: "Igienista Dentale",
+  image: "/images/foto-rocca-10.jpg",
+  description: "Specializzata nella prevenzione e nell'educazione all'igiene orale."
+}, {
+  name: "Antonella Saitta",
+  role: "Coordinazione - Amministrazione",
+  image: "/images/foto-rocca-18.jpg",
+  description: "Gestione appuntamenti e accoglienza pazienti."
+}, {
+  name: "Giulia Lucisano",
+  role: "Assistente alla Poltrona",
+  image: "/images/foto-rocca-19.jpg",
+  description: "Supporto durante gli interventi e preparazione strumentazione."
+}, {
+  name: "Dream",
+  role: "Pet Therapy",
+  image: "/images/dream2.jpeg",
+  description: "Specializzato in coccole e grattini."
+}];
 const TeamSection = () => {
   const sectionRef = useRef<HTMLDivElement>(null);
   const cardsRef = useRef<HTMLDivElement>(null);
   const ownerRef = useRef<HTMLDivElement>(null);
-  
   useEffect(() => {
     const observer = new IntersectionObserver(entries => {
       entries.forEach(entry => {
@@ -96,9 +86,7 @@ const TeamSection = () => {
       }
     };
   }, []);
-  
-  return (
-    <section id="team" className="py-20 bg-dental-stone/30">
+  return <section id="team" className="py-20 bg-dental-stone/30">
       <div className="container mx-auto px-4 md:px-6">
         <div ref={sectionRef} className="text-center mb-16 stagger-animation">
           <span className="inline-block bg-dental-olive/10 text-dental-olive px-4 py-2 rounded-full text-sm font-medium mb-4">
@@ -121,7 +109,7 @@ const TeamSection = () => {
                   <div className="mb-6 w-60 h-60 overflow-hidden rounded-full border-4 border-dental-stone">
                     <img src={ownerProfile.image} alt={ownerProfile.name} className="w-full h-full object-cover object-center" />
                   </div>
-                  <h3 className="font-bold mb-2 text-center text-3xl">
+                  <h3 className="font-bold mb-2 text-center text-3xl text-dental-blue">
                     {ownerProfile.name}
                   </h3>
                   <p className="text-dental-olive/80 font-medium text-lg mb-3 text-center">
@@ -132,11 +120,9 @@ const TeamSection = () => {
               <div className="lg:w-2/3 p-6 lg:p-10">
                 <h4 className="font-semibold text-dental-olive mb-4 text-3xl">Biografia</h4>
                 <div className="text-gray-600 space-y-4">
-                  {ownerProfile.biography.split('\n\n').map((paragraph, index) => (
-                    <p key={index} className="leading-relaxed text-lg">
+                  {ownerProfile.biography.split('\n\n').map((paragraph, index) => <p key={index} className="leading-relaxed text-lg">
                       {paragraph}
-                    </p>
-                  ))}
+                    </p>)}
                 </div>
               </div>
             </div>
@@ -145,17 +131,12 @@ const TeamSection = () => {
 
         {/* Regular team members */}
         <div ref={cardsRef} className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 stagger-animation">
-          {teamMembers.map((member, index) => (
-            <div key={index} className="bg-white rounded-xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 card-hover">
+          {teamMembers.map((member, index) => <div key={index} className="bg-white rounded-xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 card-hover">
               <AspectRatio ratio={3 / 4} className="overflow-hidden">
-                <img 
-                  src={member.image} 
-                  alt={member.name} 
-                  className="w-full h-full object-cover object-center transform hover:scale-105 transition-transform duration-500" 
-                />
+                <img src={member.image} alt={member.name} className="w-full h-full object-cover object-center transform hover:scale-105 transition-transform duration-500" />
               </AspectRatio>
               <div className="p-6">
-                <h3 className="font-semibold mb-1 text-xl">
+                <h3 className="font-semibold mb-1 text-xl text-dental-blue">
                   {member.name}
                 </h3>
                 <p className="text-dental-olive/80 font-medium text-sm mb-3">
@@ -165,12 +146,9 @@ const TeamSection = () => {
                   {member.description}
                 </p>
               </div>
-            </div>
-          ))}
+            </div>)}
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default TeamSection;
