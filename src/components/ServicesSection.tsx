@@ -4,35 +4,35 @@ import { useEffect, useRef } from 'react';
 const services = [{
   title: "Ortodonzia",
   description: "Correzione delle malocclusioni e allineamento dentale nel rispetto dell'armonia facciale.",
-  iconSrc: "/lovable-uploads/04afba94-3217-4d4e-85a4-64a03cd0edef.png"
+  iconSrc: "/images/ortodonzia.png"
 }, {
   title: "Invisalign ®",
   description: "Apparecchi trasparenti e rimovibili per l'allineamento dentale senza metallo visibile.",
-  iconSrc: "/lovable-uploads/55fde884-a138-47e4-9337-75fdf70a525a.png"
+  iconSrc: "/images/invisalign.png"
 }, {
   title: "Implantologia e Protesi",
   description: "Sostituzione dei denti naturali con impianti e protesi funzionali ed estetiche.",
-  iconSrc: "/lovable-uploads/25e820df-4af3-4fa1-b373-1060835063d1.png"
+  iconSrc: "/images/impiantologia.png"
 }, {
   title: "Parodontologia",
   description: "Trattamenti per la cura delle gengive e dei tessuti di supporto del dente.",
-  iconSrc: "/lovable-uploads/d61109db-0346-46f5-98ee-c25a130f2631.png"
+  iconSrc: "/images/parodontologia.png"
 }, {
   title: "Chirurgia Orale",
   description: "Interventi chirurgici per risolvere problematiche dentali complesse e irreversibili.",
-  iconSrc: "/lovable-uploads/58340e22-0142-40d4-9cc7-8757b1328650.png"
+  iconSrc: "/images/chirurgia-orale.png"
 }, {
   title: "Sbiancamento Dentale",
   description: "Tecniche professionali per schiarire i denti in modo sicuro ed efficace.",
-  iconSrc: "/lovable-uploads/ea94163e-c47d-40a9-8e10-ca5b980f73a7.png"
+  iconSrc: "/images/sbiancamento.png"
 }, {
   title: "Pedodonzia",
   description: "Cure odontoiatriche pediatriche mirate alla prevenzione e al benessere del bambino.",
-  iconSrc: "/lovable-uploads/04afba94-3217-4d4e-85a4-64a03cd0edef.png"
+  iconSrc: "/images/pedodonzia.png"
 }, {
   title: "Igiene Dentale",
   description: "Rimozione di placca e tartaro per mantenere la salute e l'igiene del cavo orale.",
-  iconSrc: "/lovable-uploads/55fde884-a138-47e4-9337-75fdf70a525a.png"
+  iconSrc: "/images/igiene-dentale.png"
 }];
 const ServicesSection = () => {
   const sectionRef = useRef<HTMLDivElement>(null);
