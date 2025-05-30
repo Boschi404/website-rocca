@@ -15,18 +15,13 @@ const ownerProfile = {
 const teamMembers = [{
   name: "Dott.ssa Fiorenza Crosetto",
   role: "Ortodonzia - Pedodonzia",
-  image: "/images/foto-rocca-8.jpg",
+  image: "/images/crosetto-1.jpg",
   description: "Specialista in implantologia e protesi dentali con un approccio mini-invasivo."
 }, {
   name: "Dott. Alessandro Rossi",
   role: "Chirurgia Odontostomatologica",
   image: "/images/foto-rocca-9.jpg",
   description: "Esperto in ortodonzia e trattamenti estetici per tutte le età."
-}, {
-  name: "Dott.ssa Serena Di Santo",
-  role: "Igienista Dentale",
-  image: "/images/foto-rocca-10.jpg",
-  description: "Specializzata nella prevenzione e nell'educazione all'igiene orale."
 }, {
   name: "Antonella Saitta",
   role: "Coordinazione - Amministrazione",
