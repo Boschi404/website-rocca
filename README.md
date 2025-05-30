@@ -1,69 +1,70 @@
-# Welcome to your Lovable project
+# Website Rocca
 
-## Project info
+A modern and responsive website built with **TypeScript**, **Tailwind CSS**, and **Vite**. This project is designed to be fast, maintainable, and easily scalable—perfect for a landing page or a business website.
 
-**URL**: https://lovable.dev/projects/5da26abf-dc21-48c2-af73-45aa1fc7d218
+## Tech Stack
 
-## How can I edit this code?
+- **Framework**: Vite  
+- **Language**: TypeScript  
+- **Styling**: Tailwind CSS, PostCSS  
+- **Package Manager**: Bun
 
-There are several ways of editing your application.
+## Project Structure
 
-**Use Lovable**
-
-Simply visit the [Lovable Project](https://lovable.dev/projects/5da26abf-dc21-48c2-af73-45aa1fc7d218) and start prompting.
-
-Changes made via Lovable will be committed automatically to this repo.
-
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+```bash
+website-rocca/
+├── public/                 # Static files (favicon, images, etc.)
+├── src/                    # Source code
+│   ├── components/         # Reusable components
+│   ├── main.tsx            # React entry point
+│   └── App.tsx             # Root component
+├── index.html              # Main HTML file
+├── tailwind.config.ts      # Tailwind CSS configuration
+├── vite.config.ts          # Vite configuration
+├── tsconfig.json           # TypeScript configuration
+├── bun.lockb               # Bun lockfile
+└── package.json            # Project scripts and metadata
 ```
 
-**Edit a file directly in GitHub**
+## Requirements
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+- [Bun](https://bun.sh/) (or optionally [Node.js](https://nodejs.org/) with minor adjustments)
 
-**Use GitHub Codespaces**
+## Getting Started
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+1. Clone the repository:
 
-## What technologies are used for this project?
+   ```bash
+   git clone https://github.com/Boschi404/website-rocca.git
+   cd website-rocca
+   ```
 
-This project is built with .
+2. Install dependencies:
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+   ```bash
+   bun install
+   ```
 
-## How can I deploy this project?
+3. Start the development server:
 
-Simply open [Lovable](https://lovable.dev/projects/5da26abf-dc21-48c2-af73-45aa1fc7d218) and click on Share -> Publish.
+   ```bash
+   bun run dev
+   ```
 
-## I want to use a custom domain - is that possible?
+   The app will be accessible at `http://localhost:3000`
 
-We don't support custom domains (yet). If you want to deploy your project under your own domain then we recommend using Netlify. Visit our docs for more details: [Custom domains](https://docs.lovable.dev/tips-tricks/custom-domain/)
+## Production Build
+
+```bash
+bun run build
+```
+
+The output files will be saved in the `dist/` directory.
+
+## License
+
+This project is licensed under the **MIT** License. See the [LICENSE](LICENSE) file for more information.
+
+## Author
+
+Created by [Boschi404](https://github.com/Boschi404)
