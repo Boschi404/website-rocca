@@ -20,7 +20,7 @@ const teamMembers = [{
 }, {
   name: "Dott. Alessandro Rossi",
   role: "Chirurgia Odontostomatologica",
-  image: "/images/foto-rocca-9.jpg",
+  image: "/images/rossi-1.jpg",
   description: "Esperto in ortodonzia e trattamenti estetici per tutte le età."
 }, {
   name: "Antonella Saitta",

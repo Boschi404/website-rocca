@@ -12,11 +12,11 @@ const services = [{
 }, {
   title: "Implantologia e Protesi",
   description: "Sostituzione dei denti naturali con impianti e protesi funzionali ed estetiche.",
-  iconSrc: "/images/impiantologia.png"
+  iconSrc: "/images/implantologia.png"
 }, {
   title: "Parodontologia",
   description: "Trattamenti per la cura delle gengive e dei tessuti di supporto del dente.",
-  iconSrc: "/images/parodontologia.png"
+  iconSrc: "/images/paradontologia.png"
 }, {
   title: "Chirurgia Orale",
   description: "Interventi chirurgici per risolvere problematiche dentali complesse e irreversibili.",
