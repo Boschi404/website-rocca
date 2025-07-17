@@ -71,13 +71,13 @@ const ServicesSection = () => {
       <div className="container mx-auto px-4 md:px-6">
         <div ref={sectionRef} className="text-center mb-16 stagger-animation">
           <span className="inline-block bg-dental-olive/10 text-dental-olive px-4 py-2 rounded-full text-sm font-medium mb-4">
-            I Nostri Servizi
+            Le nostre terapie
           </span>
           <h2 className="section-title font-bold text-3xl">
             Cure Dentistiche Complete
           </h2>
           <p className="section-subtitle">
-            La nostra clinica offre una vasta gamma di servizi odontoiatrici per rispondere a tutte le esigenze dei nostri pazienti, dai trattamenti di routine alla odontoiatria avanzata.
+            Il Vostro sorriso è il nostro obbiettivo. Fatevi accompagnare in un percorso di cura personalizzata, sia per i trattamenti di routine che nella odontoiatria avanzata.
           </p>
         </div>
 

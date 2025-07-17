@@ -55,12 +55,6 @@ const HeroSection = () => {
               <span className="block mb-2">
                 Diagnosi attente e meticolose, terapie mirate con materiali all’avanguardia e tecniche atraumatiche accompagnano i nostri pazienti in un <strong>percorso gradevole</strong> di cura del sorriso, sia <strong>funzionale</strong> che <strong>estetico</strong>.
               </span>
-              <span className="block mb-2">
-                Un’attenzione particolare è rivolta alla <strong>chirurgia del cavo orale</strong>, grazie a uno staff con alta esperienza e professionalità. Affrontiamo anche i <strong>casi più complessi</strong>, eventualmente supportati da una clinica esterna per gli interventi in <strong>sedazione cosciente</strong> o <strong>anestesia generale</strong>.
-              </span>
-              <span className="block mb-2">
-                Siamo sempre in <strong>fermento per migliorare</strong> la qualità del nostro lavoro. Per questo motivo ho voluto <strong>rinnovare lo studio</strong>, creando un ambiente gradevole e rilassante, dove accogliere i pazienti con i tempi, le attenzioni e la cura che da sempre ci contraddistinguono.
-              </span>
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <a href="tel:0362801081" className="flex items-center justify-center space-x-2 bg-dental-blue text-white font-medium py-3 px-6 rounded-md shadow-md hover:shadow-lg hover:bg-opacity-90 transition-all duration-300">
