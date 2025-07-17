@@ -1,10 +1,9 @@
-
 import { useEffect, useRef } from 'react';
 import { Phone, Calendar } from 'lucide-react';
 
 const HeroSection = () => {
   const sectionRef = useRef<HTMLDivElement>(null);
-  
+
   useEffect(() => {
     const observer = new IntersectionObserver(entries => {
       entries.forEach(entry => {
@@ -15,18 +14,18 @@ const HeroSection = () => {
     }, {
       threshold: 0.1
     });
-    
+
     if (sectionRef.current) {
       observer.observe(sectionRef.current);
     }
-    
+
     return () => {
       if (sectionRef.current) {
         observer.unobserve(sectionRef.current);
       }
     };
   }, []);
-  
+
   const scrollToSection = (id: string) => {
     const element = document.getElementById(id);
     if (element) {
@@ -35,7 +34,7 @@ const HeroSection = () => {
       });
     }
   };
-  
+
   return (
     <section id="home" ref={sectionRef} className="relative pt-28 md:pt-36 pb-20 md:pb-28 bg-gradient-to-br from-dental-stone/30 via-white to-dental-olive/10 overflow-hidden">
       <div className="absolute inset-0 overflow-hidden">
@@ -49,8 +48,19 @@ const HeroSection = () => {
             <div className="mb-6">
               <img src="/images/rocca-logo-def.png" alt="ROCCA Studio Odontoiatrico" className="max-w-[400px] md:max-w-[600px] mx-auto lg:mx-0" />
             </div>
-            <p className="text-lg text-gray-600 mb-8 max-w-lg">
-              Il nostro impegno è offrire cure odontoiatriche di eccellenza in un ambiente confortevole e accogliente, con particolare attenzione alle esigenze di ogni paziente.
+            <p className="text-lg text-gray-600 mb-8 max-w-lg space-y-4">
+              <span className="block mb-2">
+                Lo Studio <strong>ROCCA</strong> opera nel campo dell’odontoiatria con l’obbiettivo unico di <strong>preservare e supportare il benessere</strong> dei propri pazienti “grandi e piccini”.
+              </span>
+              <span className="block mb-2">
+                Diagnosi attente e meticolose, terapie mirate con materiali all’avanguardia e tecniche atraumatiche accompagnano i nostri pazienti in un <strong>percorso gradevole</strong> di cura del sorriso, sia <strong>funzionale</strong> che <strong>estetico</strong>.
+              </span>
+              <span className="block mb-2">
+                Un’attenzione particolare è rivolta alla <strong>chirurgia del cavo orale</strong>, grazie a uno staff con alta esperienza e professionalità. Affrontiamo anche i <strong>casi più complessi</strong>, eventualmente supportati da una clinica esterna per gli interventi in <strong>sedazione cosciente</strong> o <strong>anestesia generale</strong>.
+              </span>
+              <span className="block mb-2">
+                Siamo sempre in <strong>fermento per migliorare</strong> la qualità del nostro lavoro. Per questo motivo ho voluto <strong>rinnovare lo studio</strong>, creando un ambiente gradevole e rilassante, dove accogliere i pazienti con i tempi, le attenzioni e la cura che da sempre ci contraddistinguono.
+              </span>
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <a href="tel:0362801081" className="flex items-center justify-center space-x-2 bg-dental-blue text-white font-medium py-3 px-6 rounded-md shadow-md hover:shadow-lg hover:bg-opacity-90 transition-all duration-300">
@@ -105,7 +115,7 @@ const HeroSection = () => {
           </div>
         </div>
       </div>
-      
+
       <div className="absolute bottom-0 left-0 right-0 h-16">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" className="absolute bottom-0">
           <path fill="#ffffff" fillOpacity="1" d="M0,288L48,272C96,256,192,224,288,213.3C384,203,480,213,576,224C672,235,768,245,864,234.7C960,224,1056,192,1152,186.7C1248,181,1344,203,1392,213.3L1440,224L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path>

@@ -8,36 +8,56 @@ const ownerProfile = {
   name: "Dott. Alessio Rocca",
   role: "DIRETTORE SANITARIO",
   image: "/images/foto-rocca-21.jpg",
-  biography: "Si è laureato in odontoiatria e protesi dentaria nel 1998. Dal 1999 frequenta la Clinica Odontoiatrica dell'Ospedale S. Paolo di Milano, alternando attività di Tutor degli studenti del corso di laurea in Odontoiatria ad attività libero professionale e di medico frequentatore nei reparti di Protesi totale ed Implantoprotesi. Esercita attività professionale presso il proprio Studio. Presso lo Studio Dentistico Crosetto collabora da diversi anni per le specialitá di endodonzia, protesi fissa e mobile, ed implantoprotesi. Socio ordinario AIOP ed ANDI.\n\nIl suo approccio combina competenza tecnica, tecnologie all'avanguardia e una profonda comprensione delle esigenze dei pazienti, garantendo sempre i migliori risultati possibili."
+  biography:
+    "Laureato in odontoiatria e protesi dentaria nel 1998 presso l'Università degli Studi di Siena, pratica la professione medica da oltre 30 anni. " +
+    "Dal 1999 al 2020 ha frequentato la Clinica Odontoiatrica dell'Ospedale San Paolo di Milano, alternando attività di tutor per il corso di laurea in Odontoiatria ad attività libero professionale e di medico frequentatore nei reparti di protesi totale ed implantoprotesi. " +
+    "Collabora da decenni con importanti studi dentistici lombardi. " +
+    "Dal 2008 è direttore sanitario del proprio studio a Besana in Brianza. " +
+    "È socio ordinario AIOP ed ANDI."
 };
 
 // Regular team members
-const teamMembers = [{
-  name: "Dott.ssa Fiorenza Crosetto",
-  role: "Ortodonzia - Pedodonzia",
-  image: "/images/crosetto-1.jpg",
-  description: "Specialista in implantologia e protesi dentali con un approccio mini-invasivo."
-}, {
-  name: "Dott. Alessandro Rossi",
-  role: "Chirurgia Odontostomatologica",
-  image: "/images/rossi-1.jpg",
-  description: "Esperto in ortodonzia e trattamenti estetici per tutte le età."
-}, {
-  name: "Antonella Saitta",
-  role: "Coordinazione - Amministrazione",
-  image: "/images/foto-rocca-18.jpg",
-  description: "Gestione appuntamenti e accoglienza pazienti."
-}, {
-  name: "Giulia Lucisano",
-  role: "Assistente alla Poltrona",
-  image: "/images/foto-rocca-19.jpg",
-  description: "Supporto durante gli interventi e preparazione strumentazione."
-}, {
-  name: "Dream",
-  role: "Pet Therapy",
-  image: "/images/dream2.jpeg",
-  description: "Specializzato in coccole e grattini."
-}];
+const teamMembers = [
+  {
+    name: "Dott.ssa Fiorenza Crosetto",
+    role: "Ortodonzia - Pedodonzia",
+    image: "/images/crosetto-1.jpg",
+    description:
+      "Laureata in odontoiatria presso l'Università degli Studi di Milano, pratica la professione da 30 anni sia in ambito privato che presso l'Azienda Ospedaliera San Paolo. " +
+      "Svolge inoltre il ruolo di tutor universitario nel reparto di Odontoiatria Infantile. " +
+      "Ha conseguito la specializzazione in Ortognatodonzia nel 2007 e possiede le certificazioni Invisalign e Self Ligating Damon. " +
+      "È socia ordinaria SIDO e ANDI."
+  },
+  {
+    name: "Dott. Alessandro Rossi",
+    role: "Chirurgia Odontostomatologica",
+    image: "/images/rossi-1.jpg",
+    description:
+      "Laureato in Odontoiatria e Protesi Dentaria presso l'Università degli Studi di Milano nel 1996, è specialista in Chirurgia Odontostomatologica. " +
+      "È socio attivo di importanti società scientifiche come la Società Italiana di Chirurgia Orale e Implantologia (SICOI) dal 2006, la Società Italiana di Osteointegrazione (SIO) dal 2008, ed è Fellow dell'International Team for Implantology (ITI) e membro di PEERS Italy dal 2011. " +
+      "Svolge attività didattica presso l'Università degli Studi di Milano e l'Università di Padova, nei corsi e master di perfezionamento in chirurgia orale e implantologia osteointegrata. " +
+      "È relatore in congressi nazionali e internazionali, autore di pubblicazioni scientifiche e coautore di testi insieme al Dr. Matteo Chiapasco."
+  },
+  {
+    name: "Antonella Saitta",
+    role: "Coordinazione - Amministrazione",
+    image: "/images/foto-rocca-18.jpg",
+    description: "Gestione appuntamenti e accoglienza pazienti."
+  },
+  {
+    name: "Giulia Lucisano",
+    role: "Assistente alla Poltrona",
+    image: "/images/foto-rocca-19.jpg",
+    description: "Supporto durante gli interventi e preparazione strumentazione."
+  },
+  {
+    name: "Dream",
+    role: "Pet Therapy",
+    image: "/images/dream2.jpeg",
+    description: "Specializzato in coccole e grattini."
+  }
+];
+
 const TeamSection = () => {
   const sectionRef = useRef<HTMLDivElement>(null);
   const cardsRef = useRef<HTMLDivElement>(null);

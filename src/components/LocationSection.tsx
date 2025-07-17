@@ -31,7 +31,7 @@ const LocationSection = () => {
             Come Raggiungerci
           </h2>
           <p className="section-subtitle">
-            Lo studio si trova in una posizione facilmente raggiungibile nel centro di Besana in Brianza, con ampia disponibilità di parcheggio nelle vicinanze.
+            Lo studio si trova in una posizione facilmente raggiungibile nel centro di Besana in Brianza, con ampia disponibilità di parcheggio nelle vicinanze. Inoltre, dista solo 100 metri dalla stazione ferroviaria Milano–Lecco (via Molteno).
           </p>
         </div>
 

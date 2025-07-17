@@ -1,6 +1,10 @@
 import React, { useEffect, useRef } from 'react';
 import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
 const testimonials = [{
+  name: "Emilio Pozzoli",
+  content: "Da molti anni frequento questo studio e mi sono sempre trovato benissimo! Oltre all'igiene periodica, ho affrontato vari interventi. Il dottore, paziente e chiaro, mi ha sempre messo a mio agio. Gli appuntamenti sono flessibili e convenienti. Raccomando vivamente: cure efficaci e un clima sereno!",
+  rating: 5
+}, {
   name: "Maria Cristina Redaelli",
   content: "Consigliatissimo. Staff super professionale che ti fa sentire a tuo agio, in ambiente ricercato e rilassante.",
   rating: 5
@@ -72,7 +76,7 @@ const TestimonialsSection = () => {
             Cosa Dicono i Nostri Pazienti
           </h2>
           <p className="section-subtitle">
-            La soddisfazione dei nostri pazienti è la nostra migliore referenza. Ecco alcune delle loro esperienze con il nostro studio.
+            Le opinioni dei nostri pazienti sono la prova della qualità del nostro lavoro. Ecco alcune delle loro esperienze presso il nostro studio.
           </p>
         </div>
 
