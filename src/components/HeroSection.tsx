@@ -48,7 +48,7 @@ const HeroSection = () => {
             <div className="mb-6">
               <img src="/images/rocca-logo-def.png" alt="ROCCA Studio Odontoiatrico" className="max-w-[400px] md:max-w-[600px] mx-auto lg:mx-0" />
             </div>
-            <p className="text-lg text-gray-600 mb-8 max-w-lg space-y-4">
+            <p className="text-lg text-gray-600 mb-xl space-y-4">
               <span className="block mb-2">
                 Lo Studio <strong>ROCCA</strong> opera nel campo dell’odontoiatria con l’obbiettivo unico di <strong>preservare e supportare il benessere</strong> dei propri pazienti “grandi e piccini”.
               </span>
@@ -91,7 +91,7 @@ const HeroSection = () => {
           <div className="lg:w-1/2 mt-12 lg:mt-0 flex justify-center">
             <div className="relative w-full max-w-lg">
               <div className="absolute inset-0 bg-dental-olive/20 rounded-full blur-3xl animate-pulse-soft"></div>
-              <img src="/images/foto-rocca-16.jpg" alt="Studio dentistico in azione" className="relative z-10 rounded-2xl shadow-xl animate-fade-in-up object-cover w-full" />
+              <img src="/images/foto-rocca-17.jpg" alt="Studio dentistico in azione" className="relative z-10 rounded-2xl shadow-xl animate-fade-in-up object-cover w-full" />
               <div className="absolute -bottom-4 -right-4 bg-white rounded-lg shadow-lg p-4 z-20 animate-fade-in">
                 <div className="flex items-center space-x-2">
                   <div className="flex">
