@@ -89,7 +89,7 @@ const HeroSection = () => {
             </div>
           </div>
           <div className="lg:w-1/2 mt-12 lg:mt-0 flex justify-center">
-            <div className="relative w-full max-w-md">
+            <div className="relative w-full max-w-lg">
               <div className="absolute inset-0 bg-dental-olive/20 rounded-full blur-3xl animate-pulse-soft"></div>
               <img src="/images/foto-rocca-16.jpg" alt="Studio dentistico in azione" className="relative z-10 rounded-2xl shadow-xl animate-fade-in-up object-cover w-full" />
               <div className="absolute -bottom-4 -right-4 bg-white rounded-lg shadow-lg p-4 z-20 animate-fade-in">
