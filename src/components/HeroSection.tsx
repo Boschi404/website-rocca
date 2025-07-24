@@ -46,7 +46,7 @@ const HeroSection = () => {
         <div className="flex flex-col lg:flex-row items-center">
           <div className="lg:w-1/2 stagger-animation">
             <div className="mb-6">
-              <img src="/images/rocca-logo-def.png" alt="ROCCA Studio Odontoiatrico" className="max-w-[400px] md:max-w-[600px] mx-auto lg:mx-0" />
+              <img src="/images/Logo.png" alt="ROCCA Studio Odontoiatrico" className="max-w-[400px] md:max-w-[600px] mx-auto lg:mx-0" />
             </div>
             <p className="text-lg text-gray-600 mb-xl space-y-4">
               <span className="block mb-2">
