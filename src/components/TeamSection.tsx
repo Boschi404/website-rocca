@@ -20,7 +20,7 @@ const ownerProfile = {
 const teamMembers = [{
   name: "Dott. Alessio Rocca",
   role: "DIRETTORE SANITARIO",
-  image: "/images/foto-rocca-21.jpg",
+  image: "/images/foto-rocca-20.jpg",
   description: "Laureato in odontoiatria e protesi dentaria nel 1998 presso l'Università degli Studi di Siena, pratica la professione medica da oltre 30 anni. " +
     "Dal 1999 al 2020 ha frequentato la Clinica Odontoiatrica dell'Ospedale San Paolo di Milano, alternando attività di tutor per il corso di laurea in Odontoiatria ad attività libero professionale e di medico frequentatore nei reparti di protesi totale ed implantoprotesi. " +
     "Collabora da decenni con importanti studi dentistici lombardi. " +
@@ -37,9 +37,9 @@ const teamMembers = [{
   image: "/images/rossi-1.jpg",
   description: "Si occupa di trattamenti di chirurgia orale avanzata."
 }, {
-  name: "Dott. Alessandro Rossi",
+  name: "Dott. Melissa ",
   role: "Odontoiatria - Pedodonzia",
-  image: "/images/foto-rocca-21.jpg",
+  image: "/images/foto-rocca-22.jpg",
   description: "Mi sono laureata in Odontoiatria nel 2017 e da allora mi sono dedicata con passione all'ortodonzia." +
     "Lavorare con i bambini è una parte speciale del mio lavoro: mi sta a cuore farli sentire accolti e ascoltati, perché credo che anche una visita dal dentista possa diventare un momento sereno e persino piacevole." +
     "Negli anni ho approfondito diverse tecniche ortodontiche, frequentando corsi dedicati all'ortodonzia intercettiva, fissa e all'utilizzo delle miniviti. " +
