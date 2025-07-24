@@ -46,6 +46,7 @@
     --sidebar-ring: 217.2 91.2% 59.8%;
     
     --dental-blue: 198 73% 23%;  /* Added new color variable */
+    --dental-gray: 149 148 137;
   }
 
   .dark {
