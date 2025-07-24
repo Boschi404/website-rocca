@@ -25,8 +25,17 @@ const teamMembers = [{
 }, {
   name: "Dott. Alessandro Rossi",
   role: "Chirurgia Odontostomatologica",
-  image: "/images/foto-rocca-9.jpg",
+  image: "/images/rossi-1.jpg",
   description: "Si occupa di trattamenti di chirurgia orale avanzata."
+}, {
+  name: "Dott. Alessandro Rossi",
+  role: "Odontoiatria - Pedodonzia",
+  image: "/images/foto-rocca-35.jpg",
+  description: "Mi sono laureata in Odontoiatria nel 2017 e da allora mi sono dedicata con passione all'ortodonzia." +
+    "Lavorare con i bambini è una parte speciale del mio lavoro: mi sta a cuore farli sentire accolti e ascoltati, perché credo che anche una visita dal dentista possa diventare un momento sereno e persino piacevole." +
+    "Negli anni ho approfondito diverse tecniche ortodontiche, frequentando corsi dedicati all'ortodonzia intercettiva, fissa e all'utilizzo delle miniviti. " +
+    "Ho conseguito un master sugli allineatori trasparenti, per offrire soluzioni efficaci, estetiche e poco invasive anche agli adulti." +
+    "Oggi sto ampliando ancora di più il mio percorso, frequentando un master in medicina estetica e seguendo corsi specifici: il mio obiettivo è offrire un approccio completo al benessere, valorizzando il sorriso… e la bellezza unica di ogni persona."
 }, {
   name: "Antonella Saitta",
   role: "Coordinazione - Amministrazione",
