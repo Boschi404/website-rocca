@@ -82,11 +82,11 @@ const ServicesSection = () => {
         </div>
 
         <div ref={cardsRef} className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 stagger-animation">
-          {services.map((service, index) => <div key={index} className="bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition-all duration-300 border border-dental-stone/30 card-hover">
+          {services.map((service, index) => <div key={index} className="bg-olive p-6 rounded-xl shadow-md hover:shadow-xl transition-all duration-300 border border-dental-stone/30 card-hover">
               <div className="mb-4 w-16 h-16 rounded-full bg-dental-olive/10 flex items-center justify-center">
                 <img src={service.iconSrc} alt={`${service.title} icon`} className="w-10 h-10 object-contain" />
               </div>
-              <h3 className="text-dental-olive mb-3 text-xl font-bold">
+              <h3 className="text-white mb-3 text-xl font-bold">
                 {service.title}
               </h3>
               <p className="text-gray-600">
