@@ -37,8 +37,13 @@ const teamMembers = [{
   image: "/images/rossi-1.jpg",
   description: "Si occupa di trattamenti di chirurgia orale avanzata."
 }, {
-  name: "Dott. Melissa ",
-  role: "Odontoiatria - Pedodonzia",
+  name: "Dott. Arianna Perduca",
+  role: "Pedodonzia",
+  image: "/images/rossi-1.jpg",
+  description: "Si occupa di trattamenti di chirurgia orale avanzata."
+}, {
+  name: "Dott. Melissa Besana",
+  role: "Ortodonzia - Medicina Estetica",
   image: "/images/foto-rocca-22.jpg",
   description: "Mi sono laureata in Odontoiatria nel 2017 e da allora mi sono dedicata con passione all'ortodonzia." +
     "Lavorare con i bambini è una parte speciale del mio lavoro: mi sta a cuore farli sentire accolti e ascoltati, perché credo che anche una visita dal dentista possa diventare un momento sereno e persino piacevole." +
