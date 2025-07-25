@@ -93,14 +93,9 @@ const NavBar = () => {
                 <Phone size={18} />
                 <span>0362 801081</span>
               </a>
-              <a 
-                href="https://www.miodottore.it/alessio-mario-rocca/dentista/besana-in-brianza?prevent-patient-app-banner=true&utm_source=google&utm_medium=gmb&utm_campaign=516181&utm_content=book_visit&hl=it-IT"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex items-center space-x-2 bg-dental-blue text-white px-4 py-2 rounded-md hover:bg-opacity-90 transition-all"
-              >
-                <Calendar size={18} />
-                <span>Prenota Online</span>
+              <a href="https://www.miodottore.it/strutture/studio-odontoiatrico-dr-alessio-rocca?saasonly=true" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center space-x-2 bg-dental-blue text-white font-medium py-3 px-6 rounded-md shadow-md hover:shadow-lg hover:bg-opacity-90 transition-all duration-300">
+                <img src="/images/mio-dottore-logo.png" alt="logo mio dottore png" width={32} height={32}/>
+                <span>Prenota online</span>
               </a>
             </div>
           </nav>
@@ -165,7 +160,7 @@ const NavBar = () => {
               <span>0362 801081</span>
             </a>
             <a href="https://www.miodottore.it/strutture/studio-odontoiatrico-dr-alessio-rocca?saasonly=true" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center space-x-2 bg-dental-blue text-white font-medium py-3 px-6 rounded-md shadow-md hover:shadow-lg hover:bg-opacity-90 transition-all duration-300">
-              <img src="/images/mio-dottore-logo.png" alt="logo mio dottore png" width={16} height={16}/>
+              <img src="/images/mio-dottore-logo.png" alt="logo mio dottore png" width={32} height={32}/>
               <span>Prenota online</span>
             </a>
           </div>
