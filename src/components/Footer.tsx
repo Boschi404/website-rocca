@@ -5,7 +5,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
           <div className="bg-white p-3">
             <div className="mb-6">
-                <img src="/images/Logo.png" alt="ROCCA Studio Odontoiatrico" className="max-w-[200px] md:max-w-[300px] mx-auto lg:mx-0" />
+                <img src="/images/Logo.png" alt="ROCCA Studio Odontoiatrico" className="max-w-[300px] md:max-w-[400px] mx-auto lg:mx-0" />
             </div>
           </div>
 

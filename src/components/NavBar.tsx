@@ -86,10 +86,7 @@ const NavBar = () => {
               Contatti
             </a>
             <div className="flex items-center space-x-4">
-              <a 
-                href="tel:0362801081" 
-                className="flex items-center space-x-2 bg-dental-blue text-white px-4 py-2 rounded-md hover:bg-opacity-90 transition-all"
-              >
+              <a href="tel:0362801081" className="flex items-center justify-center space-x-2 bg-dental-blue text-white font-medium py-3 px-6 rounded-md shadow-md hover:shadow-lg hover:bg-opacity-90 transition-all duration-300">
                 <Phone size={32} />
                 <span>0362 801081</span>
               </a>
