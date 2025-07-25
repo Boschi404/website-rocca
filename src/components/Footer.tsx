@@ -3,7 +3,7 @@ const Footer = () => {
   return <footer className="bg-dental-blue text-white pt-16 pb-8">
       <div className="container mx-auto px-4 md:px-6">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
-          <div>
+          <div className="bg-white p-3">
             <div className="mb-6">
               <div className="mb-6">
                 <img src="/images/Logo.png" alt="ROCCA Studio Odontoiatrico" className="max-w-[200px] md:max-w-[300px] mx-auto lg:mx-0" />
@@ -61,7 +61,7 @@ const Footer = () => {
         <div className="border-t border-gray-700 mt-12 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-gray-400 text-sm">
-              © {new Date().getFullYear()} Studio Odontoiatrico Rocca Dr. Alessio Mario. Tutti i diritti riservati.
+              © {new Date().getFullYear()} Studio Odontoiatrico Dott. Alessio Rocca. Tutti i diritti riservati.
             </p>
             <div className="flex space-x-4 mt-4 md:mt-0">
               <p className="text-gray-400 text-sm">
