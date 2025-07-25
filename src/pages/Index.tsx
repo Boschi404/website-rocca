@@ -89,7 +89,7 @@ const Index = () => {
       <button
         id="back-to-top"
         onClick={scrollToTop}
-        className="fixed bottom-8 right-8 bg-dental-teal text-white p-3 rounded-full shadow-lg opacity-0 invisible transition-all duration-300 hover:bg-opacity-90 z-50"
+        className="fixed bottom-8 right-8 bg-dental-blue text-white p-3 rounded-full shadow-lg opacity-0 invisible transition-all duration-300 hover:bg-opacity-90 z-50"
         aria-label="Torna in cima"
       >
         <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">

@@ -72,7 +72,7 @@ const ContactForm = () => {
     <section id="contact" className="py-20 bg-white">
       <div className="container mx-auto px-4 md:px-6">
         <div ref={sectionRef} className="text-center mb-16 stagger-animation">
-          <span className="inline-block bg-dental-teal/10 text-dental-teal px-4 py-2 rounded-full text-sm font-medium mb-4">
+          <span className="inline-block bg-dental-teal/10 text-dental-blue px-4 py-2 rounded-full text-sm font-medium mb-4">
             Contattaci
           </span>
           <h2 className="section-title">

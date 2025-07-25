@@ -55,6 +55,7 @@ const HeroSection = () => {
               <span className="block mb-2">
                 Diagnosi attente e meticolose, terapie mirate con materiali all’avanguardia e tecniche atraumatiche accompagnano i nostri pazienti in un <strong>percorso gradevole</strong> di cura del sorriso, sia <strong>funzionale</strong> che <strong>estetico</strong>.
               </span>
+              <br />
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <a href="tel:0362801081" className="flex items-center justify-center space-x-2 bg-dental-blue text-white font-medium py-3 px-6 rounded-md shadow-md hover:shadow-lg hover:bg-opacity-90 transition-all duration-300">
@@ -62,7 +63,7 @@ const HeroSection = () => {
                 <span>Chiama ora per informazioni</span>
               </a>
               <a href="https://www.miodottore.it/strutture/studio-odontoiatrico-dr-alessio-rocca?saasonly=true" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center space-x-2 bg-dental-blue text-white font-medium py-3 px-6 rounded-md shadow-md hover:shadow-lg hover:bg-opacity-90 transition-all duration-300">
-                <Calendar size={20} />
+                <img src="/images/mio-dottore-logo.png" alt="logo mio dottore png" width={16} height={16}/>
                 <span>Prenota online</span>
               </a>
             </div>

@@ -24,7 +24,7 @@ const LocationSection = () => {
   return <section id="location" className="py-20 bg-dental-offwhite">
       <div className="container mx-auto px-4 md:px-6">
         <div ref={sectionRef} className="text-center mb-16 stagger-animation">
-          <span className="inline-block bg-dental-olive/10 text-dental-olive px-4 py-2 rounded-full text-sm font-medium mb-4">
+          <span className="inline-block bg-dental-olive/10 text-dental-blue px-4 py-2 rounded-full text-sm font-medium mb-4">
             Contatti
           </span>
           <h2 className="section-title">
@@ -68,9 +68,9 @@ const LocationSection = () => {
                       <Phone size={16} />
                       <span>Chiama Ora</span>
                     </a>
-                    <a href="https://www.miodottore.it/alessio-mario-rocca/dentista/besana-in-brianza?prevent-patient-app-banner=true&utm_source=google&utm_medium=gmb&utm_campaign=516181&utm_content=book_visit&hl=it-IT" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center space-x-2 bg-dental-blue text-white px-4 py-2 rounded-md hover:bg-opacity-90 transition-all text-sm">
-                      <Calendar size={16} />
-                      <span>Prenota Online</span>
+                    <a href="https://www.miodottore.it/strutture/studio-odontoiatrico-dr-alessio-rocca?saasonly=true" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center space-x-2 bg-dental-blue text-white font-medium py-3 px-6 rounded-md shadow-md hover:shadow-lg hover:bg-opacity-90 transition-all duration-300">
+                      <img src="/images/mio-dottore-logo.png" alt="logo mio dottore png" width={16} height={16}/>
+                      <span>Prenota online</span>
                     </a>
                   </div>
                 </div>

@@ -51,44 +51,44 @@ const NavBar = () => {
           <nav className="hidden md:flex items-center space-x-8">
             <a 
               onClick={() => scrollToSection('home')}
-              className="font-medium text-gray-700 hover:text-dental-teal transition-colors cursor-pointer"
+              className="font-medium text-gray-700 hover:text-dental-blue transition-colors cursor-pointer"
             >
               Home
             </a>
             <a 
               onClick={() => scrollToSection('services')}
-              className="font-medium text-gray-700 hover:text-dental-teal transition-colors cursor-pointer"
+              className="font-medium text-gray-700 hover:text-dental-blue transition-colors cursor-pointer"
             >
               Trattamenti
             </a>
             <a 
               onClick={() => scrollToSection('team')}
-              className="font-medium text-gray-700 hover:text-dental-teal transition-colors cursor-pointer"
+              className="font-medium text-gray-700 hover:text-dental-blue transition-colors cursor-pointer"
             >
               Team
             </a>
             <a 
               onClick={() => scrollToSection('studio')}
-              className="font-medium text-gray-700 hover:text-dental-teal transition-colors cursor-pointer"
+              className="font-medium text-gray-700 hover:text-dental-blue transition-colors cursor-pointer"
             >
               Studio
             </a>
             <a 
               onClick={() => scrollToSection('testimonials')}
-              className="font-medium text-gray-700 hover:text-dental-teal transition-colors cursor-pointer"
+              className="font-medium text-gray-700 hover:text-dental-blue transition-colors cursor-pointer"
             >
               Recensioni
             </a>
             <a 
               onClick={() => scrollToSection('location')}
-              className="font-medium text-gray-700 hover:text-dental-teal transition-colors cursor-pointer"
+              className="font-medium text-gray-700 hover:text-dental-blue transition-colors cursor-pointer"
             >
               Contatti
             </a>
             <div className="flex items-center space-x-4">
               <a 
                 href="tel:0362801081" 
-                className="flex items-center space-x-2 bg-dental-teal text-white px-4 py-2 rounded-md hover:bg-opacity-90 transition-all"
+                className="flex items-center space-x-2 bg-dental-blue text-white px-4 py-2 rounded-md hover:bg-opacity-90 transition-all"
               >
                 <Phone size={18} />
                 <span>0362 801081</span>
@@ -97,7 +97,7 @@ const NavBar = () => {
                 href="https://www.miodottore.it/alessio-mario-rocca/dentista/besana-in-brianza?prevent-patient-app-banner=true&utm_source=google&utm_medium=gmb&utm_campaign=516181&utm_content=book_visit&hl=it-IT"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center space-x-2 bg-dental-teal text-white px-4 py-2 rounded-md hover:bg-opacity-90 transition-all"
+                className="flex items-center space-x-2 bg-dental-blue text-white px-4 py-2 rounded-md hover:bg-opacity-90 transition-all"
               >
                 <Calendar size={18} />
                 <span>Prenota Online</span>
@@ -123,55 +123,50 @@ const NavBar = () => {
           <div className="flex flex-col space-y-4">
             <a 
               onClick={() => scrollToSection('home')}
-              className="font-medium text-gray-700 hover:text-dental-teal transition-colors py-2 cursor-pointer"
+              className="font-medium text-gray-700 hover:text-dental-blue transition-colors py-2 cursor-pointer"
             >
               Home
             </a>
             <a 
               onClick={() => scrollToSection('services')}
-              className="font-medium text-gray-700 hover:text-dental-teal transition-colors py-2 cursor-pointer"
+              className="font-medium text-gray-700 hover:text-dental-blue transition-colors py-2 cursor-pointer"
             >
               Servizi
             </a>
             <a 
               onClick={() => scrollToSection('team')}
-              className="font-medium text-gray-700 hover:text-dental-teal transition-colors py-2 cursor-pointer"
+              className="font-medium text-gray-700 hover:text-dental-blue transition-colors py-2 cursor-pointer"
             >
               Team
             </a>
             <a 
               onClick={() => scrollToSection('studio')}
-              className="font-medium text-gray-700 hover:text-dental-teal transition-colors cursor-pointer"
+              className="font-medium text-gray-700 hover:text-dental-blue transition-colors cursor-pointer"
             >
               Studio
             </a>
             <a 
               onClick={() => scrollToSection('testimonials')}
-              className="font-medium text-gray-700 hover:text-dental-teal transition-colors py-2 cursor-pointer"
+              className="font-medium text-gray-700 hover:text-dental-blue transition-colors py-2 cursor-pointer"
             >
               Recensioni
             </a>
             <a 
               onClick={() => scrollToSection('location')}
-              className="font-medium text-gray-700 hover:text-dental-teal transition-colors py-2 cursor-pointer"
+              className="font-medium text-gray-700 hover:text-dental-blue transition-colors py-2 cursor-pointer"
             >
               Contatti
             </a>
             <a 
               href="tel:0362801081" 
-              className="flex items-center justify-center space-x-2 bg-dental-teal text-white px-4 py-3 rounded-md hover:bg-opacity-90 transition-all"
+              className="flex items-center justify-center space-x-2 bg-dental-blue text-white px-4 py-3 rounded-md hover:bg-opacity-90 transition-all"
             >
               <Phone size={18} />
               <span>0362 801081</span>
             </a>
-            <a 
-              href="https://www.miodottore.it/alessio-mario-rocca/dentista/besana-in-brianza?prevent-patient-app-banner=true&utm_source=google&utm_medium=gmb&utm_campaign=516181&utm_content=book_visit&hl=it-IT"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex items-center justify-center space-x-2 bg-dental-teal text-white px-4 py-3 rounded-md hover:bg-opacity-90 transition-all"
-            >
-              <Calendar size={18} />
-              <span>Prenota Online</span>
+            <a href="https://www.miodottore.it/strutture/studio-odontoiatrico-dr-alessio-rocca?saasonly=true" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center space-x-2 bg-dental-blue text-white font-medium py-3 px-6 rounded-md shadow-md hover:shadow-lg hover:bg-opacity-90 transition-all duration-300">
+              <img src="/images/mio-dottore-logo.png" alt="logo mio dottore png" width={16} height={16}/>
+              <span>Prenota online</span>
             </a>
           </div>
         </div>

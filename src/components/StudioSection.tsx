@@ -48,9 +48,6 @@ const studioImages = [{
 }, {
   src: "/images/foto-rocca-16.jpg",
   alt: "Studio dentistico - Ingresso"
-}, {
-  src: "/images/foto-rocca-17.jpg",
-  alt: "Studio dentistico - Ingresso"
 }];
 const StudioSection = () => {
   const sectionRef = useRef<HTMLDivElement>(null);
