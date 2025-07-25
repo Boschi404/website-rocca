@@ -56,7 +56,6 @@ const HeroSection = () => {
                 Diagnosi attente e meticolose, terapie mirate con materiali all’avanguardia e tecniche atraumatiche accompagnano i nostri pazienti in un <strong>percorso gradevole</strong> di cura del sorriso, sia <strong>funzionale</strong> che <strong>estetico</strong>.
               </span>
             </p>
-            <br />
             <div className="flex flex-col sm:flex-row gap-4">
               <a href="tel:0362801081" className="flex items-center justify-center space-x-2 bg-dental-blue text-white font-medium py-3 px-6 rounded-md shadow-md hover:shadow-lg hover:bg-opacity-90 transition-all duration-300">
                 <Phone size={20} />
