@@ -63,10 +63,10 @@ const LocationSection = () => {
                   <p className="text-gray-600">
                     <a href="mailto:info@studiorocca.it" className="hover:text-dental-teal">info@studiorocca.it</a>
                   </p>
-                  <div className="flex flex-col sm:flex-row gap-3 mt-3">
-                    <a href="tel:0362801081" className="flex items-center justify-center space-x-2 bg-dental-blue text-white px-4 py-2 rounded-md hover:bg-opacity-90 transition-all text-sm">
+                  <div className="flex flex-col sm:flex-row gap-4">
+                    <a href="tel:0362801081" className="flex items-center justify-center space-x-2 bg-dental-blue text-white font-medium py-3 px-6 rounded-md shadow-md hover:shadow-lg hover:bg-opacity-90 transition-all duration-300">
                       <Phone size={32} />
-                      <span>Chiama Ora</span>
+                      <span>Chiama ora per informazioni</span>
                     </a>
                     <a href="https://www.miodottore.it/strutture/studio-odontoiatrico-dr-alessio-rocca?saasonly=true" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center space-x-2 bg-dental-blue text-white font-medium py-3 px-6 rounded-md shadow-md hover:shadow-lg hover:bg-opacity-90 transition-all duration-300">
                       <img src="/images/mio-dottore-logo.png" alt="logo mio dottore png" width={32} height={32}/>

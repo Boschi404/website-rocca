@@ -152,13 +152,10 @@ const NavBar = () => {
             >
               Contatti
             </a>
-            <a 
-              href="tel:0362801081" 
-              className="flex items-center justify-center space-x-2 bg-dental-blue text-white px-4 py-3 rounded-md hover:bg-opacity-90 transition-all"
-            >
-              <Phone size={32} />
-              <span>0362 801081</span>
-            </a>
+            <a href="tel:0362801081" className="flex items-center justify-center space-x-2 bg-dental-blue text-white font-medium py-3 px-6 rounded-md shadow-md hover:shadow-lg hover:bg-opacity-90 transition-all duration-300">
+                <Phone size={32} />
+                <span>0362 801081</span>
+              </a>
             <a href="https://www.miodottore.it/strutture/studio-odontoiatrico-dr-alessio-rocca?saasonly=true" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center space-x-2 bg-dental-blue text-white font-medium py-3 px-6 rounded-md shadow-md hover:shadow-lg hover:bg-opacity-90 transition-all duration-300">
               <img src="/images/mio-dottore-logo.png" alt="logo mio dottore png" width={32} height={32}/>
               <span>Prenota online</span>
