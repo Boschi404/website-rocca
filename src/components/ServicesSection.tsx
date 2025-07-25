@@ -86,7 +86,7 @@ const ServicesSection = () => {
               <div className="mb-4 w-16 h-16 rounded-full bg-dental-olive/10 flex items-center justify-center">
                 <img src={service.iconSrc} alt={`${service.title} icon`} className="w-10 h-10 object-contain" />
               </div>
-              <h3 className="text-dental-olive mb-3 text-xl font-bold">
+              <h3 className="text-dental-blue mb-3 text-xl font-bold">
                 {service.title}
               </h3>
               <p className="text-gray-600">
