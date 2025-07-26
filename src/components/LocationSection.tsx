@@ -63,6 +63,7 @@ const LocationSection = () => {
                   <p className="text-gray-600">
                     <a href="mailto:info@studiorocca.it" className="hover:text-dental-teal">info@studiorocca.it</a>
                   </p>
+                  <br />
                   <div className="flex flex-col sm:flex-row gap-4">
                     <a href="tel:0362801081" className="flex items-center justify-center space-x-2 bg-dental-blue text-white font-medium py-3 px-6 rounded-md shadow-md hover:shadow-lg hover:bg-opacity-90 transition-all duration-300">
                       <Phone size={32} />
@@ -96,9 +97,7 @@ const LocationSection = () => {
           </div>
           
           <div className="rounded-xl overflow-hidden shadow-md h-100 relative">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1978.2700157238503!2d9.28300037692117!3d45.70217648978248!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4786a4eb5b9bec2b%3A0xf4ec4677a37fa1a!2sStudio%20Odontoiatrico%20Dott.%20Alessio%20Rocca!5e1!3m2!1sit!2sit!4v1753548398877!5m2!1sit!2sit" width="100%" height="100%" style={{
-            border: 0
-          }} allowFullScreen={false} loading="lazy" title="Mappa dello Studio Odontoiatrico Rocca" className="absolute inset-0"></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1978.2700157238503!2d9.28300037692117!3d45.70217648978248!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4786a4eb5b9bec2b%3A0xf4ec4677a37fa1a!2sStudio%20Odontoiatrico%20Dott.%20Alessio%20Rocca!5e1!3m2!1sit!2sit!4v1753548763566!5m2!1sit!2sit" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
           </div>
         </div>
       </div>
