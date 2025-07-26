@@ -95,8 +95,8 @@ const LocationSection = () => {
             </div>
           </div>
           
-          <div className="rounded-xl overflow-hidden shadow-md h-96 relative">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2790.225775788553!2d9.279166!3d45.706945!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4786bb93e1a78c91%3A0x76612ece5c70fd52!2sVia%20Dante%20Alighieri%2C%2023%2C%2020842%20Besana%20in%20Brianza%20MB!5e0!3m2!1sit!2sit!4v1626345679071!5m2!1sit!2sit" width="100%" height="100%" style={{
+          <div className="rounded-xl overflow-hidden shadow-md h-100 relative">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2790.225775788553!2d9.279166!3d45.706945!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4786bb93e1a78c91%3A0x76612ece5c70fd52!2sVia%20Dante%20Alighieri%2C%2023%2C%2020842%20Besana%20in%20Brianza%20MB!5e0!3m2!1sit!2sit!4v1626345679071!5m2!1sit!2sit&layer=s" width="100%" height="100%" style={{
             border: 0
           }} allowFullScreen={false} loading="lazy" title="Mappa dello Studio Odontoiatrico Rocca" className="absolute inset-0"></iframe>
           </div>
