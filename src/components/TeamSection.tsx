@@ -39,7 +39,7 @@ const teamMembers = [{
 }, {
   name: "Dott. Arianna Perduca",
   role: "Pedodonzia",
-  image: "/images/rossi-1.jpg",
+  image: "/images/perduca-1.jpg",
   description: "Si occupa di trattamenti di chirurgia orale avanzata."
 }, {
   name: "Dott. Melissa Besana",
