@@ -41,7 +41,7 @@ const teamMembers = [{
   name: "Dott.ssa Melissa Besana",
   role: "Ortodonzia - Medicina Estetica",
   image: "/images/foto-rocca-22.jpg",
-  description: "Laureata in Odontoiatria, si dedica con passione all'ortodonzia e al benessere dei pazienti. Ha approfondito tecniche di ortodonzia intercettiva, fissa e con miniviti, conseguendo un master sugli allineatori trasparenti. Oggi arricchisce il suo percorso con studi in medicina estetica, per offrire un approccio completo che valorizzi sorriso e bellezza."
+  description: "Laureata in Odontoiatria, si dedica con passione all'ortodonzia e al benessere dei pazienti. Si occupa di ortodonzia intercettiva, fissa ed ortodonzia invisibile tramite l'utilizo di allineatori trasparenti. Oggi arricchisce il suo percorso con studi in medicina estetica, per offrire un approccio completo che valorizzi sorriso e bellezza."
 }, {
   name: "Antonella Saitta",
   role: "Coordinazione - Amministrazione",
