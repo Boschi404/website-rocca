@@ -31,7 +31,7 @@ const teamMembers = [{
   name: "Dott. Alessandro Rossi",
   role: "Chirurgia Odontostomatologica",
   image: "/images/rossi-1.jpg",
-  description: "Laureato in Odontoiatria, ha sviluppato competenze approfondite in chirurgia orale e implantologia. Si occupa di estrazioni complesse, rigenerazioni ossee e riabilitazioni implantoprotesiche. Attento alla precisione chirurgica e al benessere del paziente, offre trattamenti avanzati e personalizzati per risolvere anche casi complessi."
+  description: "Laureato in Odontoiatria, ha sviluppato competenze approfondite in chirurgia orale e implantologia. Si occupa di estrazioni complesse, rigenerazioni ossee e riabilitazioni implantoprotesiche. Attento alla precisione chirurgica e al benessere del paziente, offre trattamenti avanzati e personalizzati per risolvere anche i casi più complessi."
 }, {
   name: "Dott.ssa Arianna Perduca",
   role: "Pedodonzia",
