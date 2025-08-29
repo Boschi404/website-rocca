@@ -7,23 +7,23 @@ const services = [{
   iconSrc: "/images/ortodonzia.png"
 }, {
   title: "Invisalign ®",
-  description: "Apparecchi trasparenti e rimovibili per l'allineamento dentale senza metallo visibile.",
+  description: "Allineamento dentale e miglioramento del sorriso ottenuto tramite mascherine trasparenti.",
   iconSrc: "/images/invisalign.png"
 }, {
   title: "Implantologia e Protesi",
-  description: "Sostituzione dei denti naturali con impianti e protesi funzionali ed estetiche.",
+  description: "Impianti in titanio osteointegrati di alta qualità per sostituire denti naturali mancanti in modo sicuro e duraturo.",
   iconSrc: "/images/implantologia.png"
 }, {
   title: "Parodontologia",
   description: "Trattamenti per la cura delle gengive e dei tessuti di supporto del dente.",
   iconSrc: "/images/paradontologia.png"
 }, {
-  title: "Chirurgia Orale",
-  description: "Interventi chirurgici per risolvere problematiche dentali complesse e irreversibili.",
+  title: "Chirurgia Orale ed Estetica",
+  description: "Mirta alla risoluzione di problematiche di natura patologica o estetica dei tessuti duri e molli del cavo orale.",
   iconSrc: "/images/chirurgia-orale.png"
 }, {
   title: "Sbiancamento Dentale",
-  description: "Tecniche professionali per schiarire i denti in modo sicuro ed efficace.",
+  description: "Tecniche professionali per schiarire e smacchiare i denti in modo sicuro ed efficace.",
   iconSrc: "/images/sbiancamento.png"
 }, {
   title: "Pedodonzia",
