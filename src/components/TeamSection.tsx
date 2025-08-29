@@ -21,7 +21,7 @@ const teamMembers = [{
   name: "Dott. Alessio Rocca",
   role: "Direttore Sanitario",
   image: "/images/foto-rocca-20.jpg",
-  description: "Laureato in Odontoiatria e Protesi Dentaria, esercita da oltre 30 anni. Ha svolto attività clinica e di tutor presso l'Ospedale San Paolo di Milano, dedicandosi a protesi e implantoprotesi. Collabora con importanti studi dentistici lombardi ed è socio AIOP e ANDI. Dal 2008 è direttore sanitario dello studio di Besana in Brianza."
+  description: "Laureato in Odontoiatria e Protesi Dentaria, esercita da oltre 30 anni. Ha svolto attività clinica e di tutor presso l'Ospedale San Paolo di Milano, dedicandosi a protesi e implantoprotesi. Collabora con importanti studi dentistici ed è socio AIOP e ANDI. Dal 2008 è direttore sanitario dello studio di Besana in Brianza."
 }, {
   name: "Dott.ssa Fiorenza Crosetto",
   role: "Ortodonzia - Pedodonzia",
