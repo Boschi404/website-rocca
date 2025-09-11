@@ -2,7 +2,7 @@ import React, { useEffect, useRef } from 'react';
 import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
 const testimonials = [{
   name: "Emilio Pozzoli",
-  content: "Da molti anni frequento questo studio e mi sono sempre trovato benissimo! Oltre all'igiene periodica, ho affrontato vari interventi. Il dottore, paziente e chiaro, mi ha sempre messo a mio agio. Gli appuntamenti sono flessibili e convenienti. Raccomando vivamente: cure efficaci e un clima sereno!",
+  content: "Da molti anni frequento questo studio e mi sono sempre trovato benissimo! Oltre all'igiene periodica, ho affrontato vari interventi...",
   rating: 5
 }, {
   name: "Maria Cristina Redaelli",
